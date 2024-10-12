@@ -4,15 +4,29 @@ import urllib.parse
 from datetime import datetime
 import os
 
-def get_news_by_county(county, gnews_api_key, max_results=10):
-    if not county:
+def load_gnews_api_key():
+    # Get the directory where the script is located
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Construct the full path to the api.json file
+    api_file_path = os.path.join(script_dir, 'api.json')
+
+    # Load the API keys from the api.json file
+    with open(api_file_path) as f:
+        api_keys = json.load(f)
+        return api_keys.get("GNEWS_API_KEY")
+
+def get_news_by_city(city, natural_disaster, gnews_api_key, max_results=10):
+    if not city or not natural_disaster:
         return []
 
-    # URL-encode the county name to handle spaces and special characters
-    encoded_county = urllib.parse.quote(county)
+    # URL-encode the city name to handle spaces and special characters
+    encoded_city = urllib.parse.quote(city)
+    encoded_natural_disaster = urllib.parse.quote(natural_disaster)
+    query = f"{encoded_city}%20{encoded_natural_disaster}"
 
-    # Construct the API URL with the encoded county name
-    url = f"https://gnews.io/api/v4/search?q={encoded_county}&lang=en&country=us&max={max_results}&apikey={gnews_api_key}"
+    # Construct the API URL with the encoded city name
+    url = f"https://gnews.io/api/v4/search?q={query}&lang=en&country=us&max={max_results}&sortby=publishedAt&apikey={gnews_api_key}"
 
     # Fetching the data from the API
     with urllib.request.urlopen(url) as response:
@@ -21,14 +35,14 @@ def get_news_by_county(county, gnews_api_key, max_results=10):
 
     return articles
 
-def save_to_json_file(articles, county_name):
+def save_to_json_file(articles, city_name):
 
-    format_name = county_name.replace(" ", "_").lower()
+    format_name = city_name.replace(" ", "_").lower()
 
     file_path = os.path.join("Data", f"{format_name}.json")
 
     news_list = [{"title": article['title'], "url": article['url'], "date": format_date(article['publishedAt'])} for article in articles]
-    data = {"county": county_name, "news": news_list}
+    data = {"city": city_name, "news": news_list}
 
     # Save the JSON file in the Data directory
     with open(file_path, 'w') as json_file:
@@ -45,19 +59,20 @@ def format_date(published_date):
     
     return formatted_date
 
-def get_and_save_news(county_name, gnews_api_key):
-    articles = get_news_by_county(county_name, gnews_api_key)
+def get_and_save_news(city_name, natural_disaster, gnews_api_key):
+    articles = get_news_by_city(city_name, natural_disaster, gnews_api_key)
     
     if articles:
-        save_to_json_file(articles, county_name)
+        save_to_json_file(articles, city_name)
     else:
-        print(f"No news found for {county_name}.")
+        print(f"No news found for {city_name}.")
 
 def main():
-    county_name = "hillsborough county"
-    gnews_api_key = "97c888bb4923ae4cbe43864a89821fa7" 
+    natural_disaster = "hurricane"
+    city_name = "Tampa"
+    gnews_api_key = load_gnews_api_key()
 
-    get_and_save_news(county_name, gnews_api_key)
+    get_and_save_news(city_name, natural_disaster, gnews_api_key)
 
 if __name__ == "__main__":
     main()
