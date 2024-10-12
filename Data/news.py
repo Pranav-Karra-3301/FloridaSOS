@@ -4,6 +4,18 @@ import urllib.parse
 from datetime import datetime
 import os
 
+def load_gnews_api_key():
+    # Get the directory where the script is located
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Construct the full path to the api.json file
+    api_file_path = os.path.join(script_dir, 'api.json')
+
+    # Load the API keys from the api.json file
+    with open(api_file_path) as f:
+        api_keys = json.load(f)
+        return api_keys.get("GNEWS_API_KEY")
+
 def get_news_by_city(city, natural_disaster, gnews_api_key, max_results=10):
     if not city or not natural_disaster:
         return []
@@ -58,7 +70,7 @@ def get_and_save_news(city_name, natural_disaster, gnews_api_key):
 def main():
     natural_disaster = "hurricane"
     city_name = "Tampa"
-    gnews_api_key = "97c888bb4923ae4cbe43864a89821fa7" 
+    gnews_api_key = load_gnews_api_key()
 
     get_and_save_news(city_name, natural_disaster, gnews_api_key)
 
