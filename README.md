@@ -1,5 +1,3 @@
-Certainly! I'll create a detailed README for the entire repository, including file structure, functionality, and how it can be used as a template for emergency dashboards. Here's a comprehensive README:
-
 # Hurricane Warning Dashboard
 
 ## Table of Contents
