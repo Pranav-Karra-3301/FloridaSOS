@@ -1,2 +1,4 @@
 api.json
-.venv/
+data/api.json
+availability.json
+data/availability.json
