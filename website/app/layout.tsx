@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Resource Page for Hurricane Milton",
+  title: "🌪️ Hurricane Warning Dashboard",
   description: "HackPSU Fall 2024 Submission",
 };
 
