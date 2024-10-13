@@ -1,7 +1,7 @@
 'use client';
 
 import Image from "next/image";
-import ArticleCarousel from "../components/ArticleCarousel";
+// import ArticleCarousel from "../components/ArticleCarousel";
 import Alert from "../components/alert";
 import { useState } from 'react';
 import gasStationsData from '../Data/gas_stations_hillsborough.json';
@@ -175,10 +175,10 @@ Please stay safe and follow local guidance." />
             <div className="relative px-7 py-6 bg-black ring-1 ring-gray-900/5 rounded-lg leading-none">
               <ul className="text-white-700 list-disc pl-5 space-y-2">
                 <li>Hurricane Milton caused significant damage and deaths across Florida.</li>
-                <li>Tampa Bay was severely affected, with damage to the local stadium raising concerns for the Rays' upcoming season.</li>
+                <li>Tampa Bay was severely affected, with damage to the local stadium raising concerns for the Rays&apos; upcoming season.</li>
                 <li>A boat captain survived by clinging to a cooler in the Gulf of Mexico.</li>
                 <li>Peso Pluma cancelled concerts in Tampa and Miami due to the hurricane.</li>
-                <li>Florida Lieutenant Dan Joseph Malinowski's daughter criticized influencers for exploiting the tragedy.</li>
+                <li>Florida Lieutenant Dan Joseph Malinowski&apos;s daughter criticized influencers for exploiting the tragedy.</li>
                 <li>The death toll has risen to 16 as rescue efforts continue.</li>
                 <li>Residents are navigating flooded streets for cleanup as recovery efforts begin.</li>
                 <li>The road to recovery is expected to be long and arduous.</li>
@@ -193,25 +193,31 @@ Please stay safe and follow local guidance." />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-black rounded-lg overflow-hidden">
               <h3 className="text-lg font-semibold mb-2 text-center text-white">Path</h3>
-              <img
+              <Image
                 src="/path.gif"
                 alt="Hurricane Path"
+                width={400}
+                height={300}
                 className="w-full h-auto"
               />
             </div>
             <div className="bg-black rounded-lg overflow-hidden">
               <h3 className="text-lg font-semibold mb-2 text-center text-white">Temperature Map</h3>
-              <img
+              <Image
                 src="/temp.gif"
                 alt="Temperature Map"
+                width={400}
+                height={300}
                 className="w-full h-auto"
               />
             </div>
             <div className="bg-black rounded-lg overflow-hidden">
               <h3 className="text-lg font-semibold mb-2 text-center text-white">Satellite</h3>
-              <img
+              <Image
                 src="/sat.gif"
                 alt="Satellite View"
+                width={400}
+                height={300}
                 className="w-full h-auto"
               />
             </div>
