@@ -3,42 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #1a1a1a;
   --foreground: #ffffff;
-  --accent: #0070f3;
-  --border: #e5e5e5;
+  --accent: #3b82f6;
+  --border: #333333;
 }
 
 body {
   color: var(--foreground);
-  position: relative;
-}
-
-body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url('/hurricane-milton.gif');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  opacity: 0.7;
-  z-index: -2;
-}
-
-body::after {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
+  background-color: var(--background);
 }
 
 body {
@@ -71,7 +44,7 @@ a:hover {
   border: 1px solid var(--border);
   border-radius: 5px;
   padding: 1.5rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 
 @layer utilities {
