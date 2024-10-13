@@ -57,7 +57,7 @@ export default function Home() {
   return (
     <div className="min-h-screen p-8 font-sans bg-black text-white">
       <header className="text-center mb-8">
-        <h1 className="text-8xl font-bold mb-6">🌪️ Hurricane Warning Dashboard</h1>
+        <h1 className="text-4xl font-bold mb-6">🌪️ Hurricane Warning Dashboard</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl font-bold mb-4">Hurricane Category</h2>
