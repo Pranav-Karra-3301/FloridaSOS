@@ -1,0 +1,3001 @@
+{
+    "Apollo Beach": [
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital Emergency Room",
+            "address": "N, 4016 Sun City Center Blvd 1st Floor, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=N,+4016+Sun+City+Center+Blvd+1st+Floor,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "TGMG Apollo Beach",
+            "address": "6488 N U.S. Hwy 41, Apollo Beach, FL 33572, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6488+N+U.S.+Hwy+41,+Apollo+Beach,+FL+33572,+United+States"
+        },
+        {
+            "name": "Express Care Tampa",
+            "address": "6015 Rex Hall Ln, Apollo Beach, FL 33572, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6015+Rex+Hall+Ln,+Apollo+Beach,+FL+33572,+United+States"
+        }
+    ],
+    "Balm": [
+        {
+            "name": "HCA Florida South Shore Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "ER at Sun City Center",
+            "address": "16504 US-301, Wimauma, FL 33598, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=16504+US-301,+Wimauma,+FL+33598,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "Riverview Regional Hospital",
+            "address": "12530 US-301, Riverview, FL 33579, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12530+US-301,+Riverview,+FL+33579,+United+States"
+        },
+        {
+            "name": "AdventHealth Care Pavilion Bloomingdale",
+            "address": "13403 Boyette Rd, Riverview, FL 33569, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=13403+Boyette+Rd,+Riverview,+FL+33569,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital Emergency Room",
+            "address": "N, 4016 Sun City Center Blvd 1st Floor, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=N,+4016+Sun+City+Center+Blvd+1st+Floor,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "Manatee Memorial Hospital",
+            "address": "206 2nd St E, Bradenton, FL 34208, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=206+2nd+St+E,+Bradenton,+FL+34208,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "10647 Big Bend Rd, Riverview, FL 33579, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10647+Big+Bend+Rd,+Riverview,+FL+33579,+United+States"
+        },
+        {
+            "name": "TGH Urgent Care powered by Fast Track (Sun City Center)",
+            "address": "16521 US-301, Wimauma, FL 33598, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=16521+US-301,+Wimauma,+FL+33598,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Brooksville",
+            "address": "17240 Cortez Blvd, Brooksville, FL 34601, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=17240+Cortez+Blvd,+Brooksville,+FL+34601,+United+States"
+        },
+        {
+            "name": "Wimauma Community Health Center - Suncoast Community Health Centers",
+            "address": "16621 Lagoon Shore Blvd, Wimauma, FL 33598, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=16621+Lagoon+Shore+Blvd,+Wimauma,+FL+33598,+United+States"
+        },
+        {
+            "name": "Orlando Health Bayfront Hospital",
+            "address": "701 6th St S, St. Petersburg, FL 33701, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=701+6th+St+S,+St.+Petersburg,+FL+33701,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "Bartow Regional Medical Center",
+            "address": "2200 Osprey Blvd, Bartow, FL 33830, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2200+Osprey+Blvd,+Bartow,+FL+33830,+United+States"
+        },
+        {
+            "name": "HCA Florida Blake Hospital",
+            "address": "2020 59th St W, Bradenton, FL 34209, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2020+59th+St+W,+Bradenton,+FL+34209,+United+States"
+        }
+    ],
+    "Bloomingdale": [
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "AdventHealth Care Pavilion Bloomingdale",
+            "address": "13403 Boyette Rd, Riverview, FL 33569, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=13403+Boyette+Rd,+Riverview,+FL+33569,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "AdventHealth Centra Care Brandon/Riverview",
+            "address": "10222 Bloomingdale Ave, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10222+Bloomingdale+Ave,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "AdventHealth Brandon ER",
+            "address": "305 E Brandon Blvd, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=305+E+Brandon+Blvd,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "AdventHealth Medical Group Multispecialty at Bloomingdale",
+            "address": "13403 Boyette Rd, Riverview, FL 33569, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=13403+Boyette+Rd,+Riverview,+FL+33569,+United+States"
+        },
+        {
+            "name": "BayCare HealthHub (Bloomingdale)",
+            "address": "2470 Bloomingdale Ave, Valrico, FL 33596, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2470+Bloomingdale+Ave,+Valrico,+FL+33596,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital Outpatient Rehabilitation Center at BayCare HealthHub (Bloomingdale)",
+            "address": "2470 Bloomingdale Ave #204, Valrico, FL 33596, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2470+Bloomingdale+Ave+#204,+Valrico,+FL+33596,+United+States"
+        },
+        {
+            "name": "Brandon Riverview Medical Associates",
+            "address": "519A E Bloomingdale Ave, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=519A+E+Bloomingdale+Ave,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "AdventHealth Imaging Center Bloomingdale",
+            "address": "13403 Boyette Rd Suite 150, Riverview, FL 33569, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=13403+Boyette+Rd+Suite+150,+Riverview,+FL+33569,+United+States"
+        },
+        {
+            "name": "AdventHealth Lab Bloomingdale",
+            "address": "13403 Boyette Rd, Riverview, FL 33569, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=13403+Boyette+Rd,+Riverview,+FL+33569,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "HCA Florida Bayonet Point Hospital",
+            "address": "14000 Fivay Rd, Hudson, FL 34667, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=14000+Fivay+Rd,+Hudson,+FL+34667,+United+States"
+        },
+        {
+            "name": "Complete Health of Tampa Bay",
+            "address": "1426 Bloomingdale Ave, Valrico, FL 33596, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1426+Bloomingdale+Ave,+Valrico,+FL+33596,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        }
+    ],
+    "Brandon": [
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital Emergency Room",
+            "address": "119 Oakfield Dr Ground Floor, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr+Ground+Floor,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "AdventHealth Brandon ER",
+            "address": "305 E Brandon Blvd, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=305+E+Brandon+Blvd,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "TGH Brandon Emergency Center",
+            "address": "10740 Palm River Rd Ste 310, Tampa, FL 33619, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10740+Palm+River+Rd+Ste+310,+Tampa,+FL+33619,+United+States"
+        },
+        {
+            "name": "Children's Emergency Department at HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr Ground Floor, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr+Ground+Floor,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital Women's Services",
+            "address": "119 Oakfield Dr C-Tower, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr+C-Tower,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "HCA Healthcare",
+            "address": "560 S Lakewood Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=560+S+Lakewood+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "Brandon Regional Hospital at Temple Terrace",
+            "address": "5234 E Fowler Ave, Temple Terrace, FL 33617, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5234+E+Fowler+Ave,+Temple+Terrace,+FL+33617,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "AdventHealth Centra Care Brandon/Riverview",
+            "address": "10222 Bloomingdale Ave, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10222+Bloomingdale+Ave,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital, Lumsden Rd",
+            "address": "799 W Lumsden Rd, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=799+W+Lumsden+Rd,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital Weight Loss Surgery Center of Excellence",
+            "address": "119 Oakfield Dr A-Tower, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr+A-Tower,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "Johns Hopkins All Children's Outpatient Care, Brandon",
+            "address": "885 S Parsons Ave, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=885+S+Parsons+Ave,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "TGH Outpatient Center",
+            "address": "10740 Palm River Rd, Tampa, FL 33619, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10740+Palm+River+Rd,+Tampa,+FL+33619,+United+States"
+        },
+        {
+            "name": "Brandon Regional Hospital Women's Center",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "After Hours Pediatrics Urgent Care - Brandon",
+            "address": "131 W Robertson St, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=131+W+Robertson+St,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Brandon Regional Hospital: Pleasants Tom DO",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        }
+    ],
+    "Carrollwood": [
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        }
+    ],
+    "Cheval": [
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "HCA Florida Bayonet Point Hospital",
+            "address": "14000 Fivay Rd, Hudson, FL 34667, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=14000+Fivay+Rd,+Hudson,+FL+34667,+United+States"
+        },
+        {
+            "name": "HCA Florida Lutz Emergency",
+            "address": "1430 Dale Mabry Hwy, Lutz, FL 33548, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1430+Dale+Mabry+Hwy,+Lutz,+FL+33548,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "BayCare Hospital Wesley Chapel",
+            "address": "4501 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4501+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "AdventHealth Central Pasco ER",
+            "address": "16625 State Rd 54, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=16625+State+Rd+54,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Brooksville",
+            "address": "17240 Cortez Blvd, Brooksville, FL 34601, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=17240+Cortez+Blvd,+Brooksville,+FL+34601,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "AdventHealth Connerton",
+            "address": "9441 Health Center Dr, Land O' Lakes, FL 34637, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9441+Health+Center+Dr,+Land+O'+Lakes,+FL+34637,+United+States"
+        },
+        {
+            "name": "Mease Countryside Hospital",
+            "address": "3231 McMullen Booth Rd, Safety Harbor, FL 34695, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3231+McMullen+Booth+Rd,+Safety+Harbor,+FL+34695,+United+States"
+        },
+        {
+            "name": "Encompass Health Rehabilitation Hospital of North Tampa",
+            "address": "3840 Atmore Grove Dr, Lutz, FL 33548, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3840+Atmore+Grove+Dr,+Lutz,+FL+33548,+United+States"
+        },
+        {
+            "name": "Morton Plant North Bay Hospital",
+            "address": "6600 Madison St, New Port Richey, FL 34652, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6600+Madison+St,+New+Port+Richey,+FL+34652,+United+States"
+        }
+    ],
+    "Citrus Park": [
+        {
+            "name": "HCA Florida Citrus Park Emergency",
+            "address": "12922 Sheldon Rd, Tampa, FL 33626, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12922+Sheldon+Rd,+Tampa,+FL+33626,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "Sanitas Medical Center",
+            "address": "12879 Citrus Park Dr Dr, Tampa, FL 33625, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12879+Citrus+Park+Dr+Dr,+Tampa,+FL+33625,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "AdventHealth Westchase ER",
+            "address": "10977 Sheldon Rd, Tampa, FL 33626, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10977+Sheldon+Rd,+Tampa,+FL+33626,+United+States"
+        },
+        {
+            "name": "Morton Plant North Bay Hospital",
+            "address": "6600 Madison St, New Port Richey, FL 34652, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6600+Madison+St,+New+Port+Richey,+FL+34652,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "AdventHealth Centra Care Citrus Park",
+            "address": "6930 Gunn Hwy, Tampa, FL 33625, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6930+Gunn+Hwy,+Tampa,+FL+33625,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Brooksville",
+            "address": "17240 Cortez Blvd, Brooksville, FL 34601, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=17240+Cortez+Blvd,+Brooksville,+FL+34601,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "HCA Florida Citrus Hospital",
+            "address": "502 W Highland Blvd, Inverness, FL 34452, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=502+W+Highland+Blvd,+Inverness,+FL+34452,+United+States"
+        },
+        {
+            "name": "Morton Plant Hospital",
+            "address": "300 Pinellas St, Clearwater, FL 33756, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=300+Pinellas+St,+Clearwater,+FL+33756,+United+States"
+        }
+    ],
+    "Dover": [
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "HCA Florida Bayonet Point Hospital",
+            "address": "14000 Fivay Rd, Hudson, FL 34667, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=14000+Fivay+Rd,+Hudson,+FL+34667,+United+States"
+        },
+        {
+            "name": "BayCare Hospital Wesley Chapel",
+            "address": "4501 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4501+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "AdventHealth Zephyrhills",
+            "address": "7050 Gall Blvd, Zephyrhills, FL 33541, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7050+Gall+Blvd,+Zephyrhills,+FL+33541,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "Tom Lee Community Health Center - Suncoast Community Health Centers",
+            "address": "14254 E Dr Martin Luther King Jr Blvd, Dover, FL 33527, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=14254+E+Dr+Martin+Luther+King+Jr+Blvd,+Dover,+FL+33527,+United+States"
+        },
+        {
+            "name": "Bartow Regional Medical Center",
+            "address": "2200 Osprey Blvd, Bartow, FL 33830, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2200+Osprey+Blvd,+Bartow,+FL+33830,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        }
+    ],
+    "East Lake-Orient Park": [
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "St. Joseph's Women's Hospital",
+            "address": "3030 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "St. Joseph's Children's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Brandon Regional Hospital at Temple Terrace",
+            "address": "5234 E Fowler Ave, Temple Terrace, FL 33617, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5234+E+Fowler+Ave,+Temple+Terrace,+FL+33617,+United+States"
+        },
+        {
+            "name": "BayCare Hospital Wesley Chapel",
+            "address": "4501 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4501+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa ER",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "Hidden River VA Clinic",
+            "address": "13515 Lake Terrace Ln, Tampa, FL 33637, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=13515+Lake+Terrace+Ln,+Tampa,+FL+33637,+United+States"
+        },
+        {
+            "name": "AdventHealth Pepin Heart Institute",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "TGH Outpatient Center",
+            "address": "10740 Palm River Rd, Tampa, FL 33619, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10740+Palm+River+Rd,+Tampa,+FL+33619,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        }
+    ],
+    "Egypt Lake-Leto": [
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "St. Joseph's Women's Hospital",
+            "address": "3030 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Tampa Family Health Centers",
+            "address": "7814 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7814+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "St. Joseph's Children's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Sanitas Medical Center",
+            "address": "3617 W Hillsborough Ave, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3617+W+Hillsborough+Ave,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Brooksville",
+            "address": "17240 Cortez Blvd, Brooksville, FL 34601, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=17240+Cortez+Blvd,+Brooksville,+FL+34601,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "Mease Countryside Hospital",
+            "address": "3231 McMullen Booth Rd, Safety Harbor, FL 34695, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3231+McMullen+Booth+Rd,+Safety+Harbor,+FL+34695,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "Orlando Health Bayfront Hospital",
+            "address": "701 6th St S, St. Petersburg, FL 33701, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=701+6th+St+S,+St.+Petersburg,+FL+33701,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "Rangel Medical Center",
+            "address": "4160 N Armenia Ave STE A, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4160+N+Armenia+Ave+STE+A,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        }
+    ],
+    "Fish Hawk": [
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "AdventHealth Care Pavilion Bloomingdale",
+            "address": "13403 Boyette Rd, Riverview, FL 33569, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=13403+Boyette+Rd,+Riverview,+FL+33569,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Out Patient Care.",
+            "address": "13421 Fishhawk Blvd, Riverview, FL 33569, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=13421+Fishhawk+Blvd,+Riverview,+FL+33569,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "TGH Urgent Care powered by Fast Track (Fish Hawk)",
+            "address": "5464 Lithia Pinecrest Rd, Lithia, FL 33547, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5464+Lithia+Pinecrest+Rd,+Lithia,+FL+33547,+United+States"
+        },
+        {
+            "name": "Riverview Regional Hospital",
+            "address": "12530 US-301, Riverview, FL 33579, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12530+US-301,+Riverview,+FL+33579,+United+States"
+        },
+        {
+            "name": "TGMG Fishhawk",
+            "address": "13421 Fishhawk Blvd, Lithia, FL 33547, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=13421+Fishhawk+Blvd,+Lithia,+FL+33547,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Pediatric Health Care Alliance",
+            "address": "5621 Skytop Dr, Lithia, FL 33547, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5621+Skytop+Dr,+Lithia,+FL+33547,+United+States"
+        },
+        {
+            "name": "FishHawk HealthPark",
+            "address": "5611 Skytop Dr, Lithia, FL 33547, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5611+Skytop+Dr,+Lithia,+FL+33547,+United+States"
+        },
+        {
+            "name": "Baycare Medical Group - Primary Care",
+            "address": "5617 Skytop Dr, Lithia, FL 33547, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5617+Skytop+Dr,+Lithia,+FL+33547,+United+States"
+        },
+        {
+            "name": "Women's Care",
+            "address": "16301 Fishhawk Blvd STE 102, Lithia, FL 33547, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=16301+Fishhawk+Blvd+STE+102,+Lithia,+FL+33547,+United+States"
+        },
+        {
+            "name": "AdventHealth Imaging Center Bloomingdale",
+            "address": "13403 Boyette Rd Suite 150, Riverview, FL 33569, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=13403+Boyette+Rd+Suite+150,+Riverview,+FL+33569,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        }
+    ],
+    "Gibsonton": [
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "Riverview Regional Hospital",
+            "address": "12530 US-301, Riverview, FL 33579, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12530+US-301,+Riverview,+FL+33579,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "HCA Florida Riverview Emergency",
+            "address": "12530 US-301, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12530+US-301,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "10647 Big Bend Rd, Riverview, FL 33579, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10647+Big+Bend+Rd,+Riverview,+FL+33579,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South Emergency Center",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "BayCare Outpatient Center (Riverview)",
+            "address": "10141 Big Bend Rd, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10141+Big+Bend+Rd,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "St. Joseph's Women's Hospital",
+            "address": "3030 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "AdventHealth Centra Care Brandon/Riverview",
+            "address": "10222 Bloomingdale Ave, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10222+Bloomingdale+Ave,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "TGH Urgent Care powered by Fast Track (Riverview)",
+            "address": "11406 US-301, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=11406+US-301,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital-South - Diabetes Education",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "HCA Florida Bayonet Point Hospital",
+            "address": "14000 Fivay Rd, Hudson, FL 34667, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=14000+Fivay+Rd,+Hudson,+FL+34667,+United+States"
+        },
+        {
+            "name": "AdventHealth Care Pavilion Bloomingdale",
+            "address": "13403 Boyette Rd, Riverview, FL 33569, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=13403+Boyette+Rd,+Riverview,+FL+33569,+United+States"
+        }
+    ],
+    "Keystone": [
+        {
+            "name": "HCA Florida Bayonet Point Hospital",
+            "address": "14000 Fivay Rd, Hudson, FL 34667, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=14000+Fivay+Rd,+Hudson,+FL+34667,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "HCA Florida Largo West Hospital",
+            "address": "2025 Indian Rocks Rd, Largo, FL 33774, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2025+Indian+Rocks+Rd,+Largo,+FL+33774,+United+States"
+        },
+        {
+            "name": "Morton Plant Primary Care",
+            "address": "30522 US Hwy 19 N, Palm Harbor, FL 34684, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=30522+US+Hwy+19+N,+Palm+Harbor,+FL+34684,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "HCA Florida St. Petersburg Hospital",
+            "address": "6500 38th Ave N, St. Petersburg, FL 33710, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6500+38th+Ave+N,+St.+Petersburg,+FL+33710,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "Morton Plant Hospital",
+            "address": "300 Pinellas St, Clearwater, FL 33756, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=300+Pinellas+St,+Clearwater,+FL+33756,+United+States"
+        },
+        {
+            "name": "HCA Florida Northside Hospital",
+            "address": "6000 49th St N, St. Petersburg, FL 33709, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6000+49th+St+N,+St.+Petersburg,+FL+33709,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - St. Petersburg",
+            "address": "3030 6th St S, St. Petersburg, FL 33705, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+6th+St+S,+St.+Petersburg,+FL+33705,+United+States"
+        },
+        {
+            "name": "Morton Plant North Bay Hospital",
+            "address": "6600 Madison St, New Port Richey, FL 34652, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6600+Madison+St,+New+Port+Richey,+FL+34652,+United+States"
+        },
+        {
+            "name": "Mease Countryside Hospital",
+            "address": "3231 McMullen Booth Rd, Safety Harbor, FL 34695, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3231+McMullen+Booth+Rd,+Safety+Harbor,+FL+34695,+United+States"
+        },
+        {
+            "name": "Baycare St Joseph North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "BayCare Alliant Hospital",
+            "address": "601 Main St, Dunedin, FL 34698, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=601+Main+St,+Dunedin,+FL+34698,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "Morton Plant North Bay Hospital",
+            "address": "6633 Forest Ave, New Port Richey, FL 34653, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6633+Forest+Ave,+New+Port+Richey,+FL+34653,+United+States"
+        },
+        {
+            "name": "HCA Florida Pasadena Hospital",
+            "address": "1501 Pasadena Ave S, St. Petersburg, FL 33707, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1501+Pasadena+Ave+S,+St.+Petersburg,+FL+33707,+United+States"
+        },
+        {
+            "name": "Mease Dunedin Hospital",
+            "address": "601 Main St, Dunedin, FL 34698, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=601+Main+St,+Dunedin,+FL+34698,+United+States"
+        },
+        {
+            "name": "St. Anthony's Hospital",
+            "address": "1200 7th Ave N, St. Petersburg, FL 33705, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1200+7th+Ave+N,+St.+Petersburg,+FL+33705,+United+States"
+        }
+    ],
+    "Lake Magdalene": [
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "Sanitas Medical Center",
+            "address": "14823 N Florida Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=14823+N+Florida+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "Magdalene Medical Center",
+            "address": "15511 N Florida Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=15511+N+Florida+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "St. Joseph's Women's Hospital",
+            "address": "3030 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa ER",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Brooksville",
+            "address": "17240 Cortez Blvd, Brooksville, FL 34601, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=17240+Cortez+Blvd,+Brooksville,+FL+34601,+United+States"
+        },
+        {
+            "name": "Mease Countryside Hospital",
+            "address": "3231 McMullen Booth Rd, Safety Harbor, FL 34695, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3231+McMullen+Booth+Rd,+Safety+Harbor,+FL+34695,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood ER",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        }
+    ],
+    "Lutz": [
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "Morton Plant North Bay Hospital",
+            "address": "6600 Madison St, New Port Richey, FL 34652, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6600+Madison+St,+New+Port+Richey,+FL+34652,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North Emergency Center",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "HCA Florida Lutz Emergency",
+            "address": "1430 Dale Mabry Hwy, Lutz, FL 33548, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1430+Dale+Mabry+Hwy,+Lutz,+FL+33548,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "AdventHealth Central Pasco ER",
+            "address": "16625 State Rd 54, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=16625+State+Rd+54,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "BayCare",
+            "address": "21808 State Rd 54, Lutz, FL 33549, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=21808+State+Rd+54,+Lutz,+FL+33549,+United+States"
+        },
+        {
+            "name": "HCA Florida Bayonet Point Hospital",
+            "address": "14000 Fivay Rd, Hudson, FL 34667, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=14000+Fivay+Rd,+Hudson,+FL+34667,+United+States"
+        },
+        {
+            "name": "BayCare Hospital Wesley Chapel",
+            "address": "4501 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4501+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital Emergency Room",
+            "address": "9330 State Rd 54 Main Campus, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54+Main+Campus,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "St. Joseph's Women's Hospital",
+            "address": "3030 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Morton Plant North Bay Hospital- Recovery Center",
+            "address": "21808 State Rd 54, Lutz, FL 33549, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=21808+State+Rd+54,+Lutz,+FL+33549,+United+States"
+        },
+        {
+            "name": "Emergency Room - St. Joseph's Hospital - North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        }
+    ],
+    "Mango": [
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "HCA Florida Bayonet Point Hospital",
+            "address": "14000 Fivay Rd, Hudson, FL 34667, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=14000+Fivay+Rd,+Hudson,+FL+34667,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "St. Joseph's Women's Hospital",
+            "address": "3030 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "BayCare Hospital Wesley Chapel",
+            "address": "4501 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4501+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "Brandon Regional Hospital at Temple Terrace",
+            "address": "5234 E Fowler Ave, Temple Terrace, FL 33617, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5234+E+Fowler+Ave,+Temple+Terrace,+FL+33617,+United+States"
+        },
+        {
+            "name": "Express Care of Tampa Bay",
+            "address": "4018 Highview Rd, Seffner, FL 33584, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4018+Highview+Rd,+Seffner,+FL+33584,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        }
+    ],
+    "Northdale": [
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "St. Joseph's Women's Hospital",
+            "address": "3030 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Brooksville",
+            "address": "17240 Cortez Blvd, Brooksville, FL 34601, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=17240+Cortez+Blvd,+Brooksville,+FL+34601,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "HCA Florida Bayonet Point Hospital",
+            "address": "14000 Fivay Rd, Hudson, FL 34667, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=14000+Fivay+Rd,+Hudson,+FL+34667,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "Mease Countryside Hospital",
+            "address": "3231 McMullen Booth Rd, Safety Harbor, FL 34695, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3231+McMullen+Booth+Rd,+Safety+Harbor,+FL+34695,+United+States"
+        },
+        {
+            "name": "Morton Plant North Bay Hospital",
+            "address": "6600 Madison St, New Port Richey, FL 34652, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6600+Madison+St,+New+Port+Richey,+FL+34652,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa ER",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "St. Joseph's Children's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        }
+    ],
+    "Pebble Creek": [
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "BayCare Hospital Wesley Chapel",
+            "address": "4501 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4501+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Brooksville",
+            "address": "17240 Cortez Blvd, Brooksville, FL 34601, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=17240+Cortez+Blvd,+Brooksville,+FL+34601,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "HCA Florida Bayonet Point Hospital",
+            "address": "14000 Fivay Rd, Hudson, FL 34667, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=14000+Fivay+Rd,+Hudson,+FL+34667,+United+States"
+        },
+        {
+            "name": "Pebble Creek Animal Hospital",
+            "address": "19440 Bruce B Downs Blvd, Tampa, FL 33647, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=19440+Bruce+B+Downs+Blvd,+Tampa,+FL+33647,+United+States"
+        },
+        {
+            "name": "St. Joseph's Women's Hospital",
+            "address": "3030 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "AdventHealth Zephyrhills",
+            "address": "7050 Gall Blvd, Zephyrhills, FL 33541, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7050+Gall+Blvd,+Zephyrhills,+FL+33541,+United+States"
+        }
+    ],
+    "Plant City": [
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "HCA Florida Plant City Emergency",
+            "address": "3065 James L Redman Pkwy, Plant City, FL 33566, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3065+James+L+Redman+Pkwy,+Plant+City,+FL+33566,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital- Jim and Ruby Redman Emergency Center",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital - Diabetes Education",
+            "address": "301 N Alexander St, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=301+N+Alexander+St,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "BayCare Wound Care - South Florida Baptist Hospital",
+            "address": "3198 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3198+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "Lakeland Regional Health Medical Center",
+            "address": "1324 Lakeland Hills Blvd, Lakeland, FL 33805, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1324+Lakeland+Hills+Blvd,+Lakeland,+FL+33805,+United+States"
+        },
+        {
+            "name": "Community Medical Group of Plant City",
+            "address": "1415 S Collins St, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1415+S+Collins+St,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "Bartow Regional Medical Center",
+            "address": "2200 Osprey Blvd, Bartow, FL 33830, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2200+Osprey+Blvd,+Bartow,+FL+33830,+United+States"
+        },
+        {
+            "name": "Palm Medical Centers - Plant City",
+            "address": "1509 Reynolds St, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1509+Reynolds+St,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "AdventHealth Zephyrhills",
+            "address": "7050 Gall Blvd, Zephyrhills, FL 33541, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7050+Gall+Blvd,+Zephyrhills,+FL+33541,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "BayCare Medical Group General/Bariatric Surgery",
+            "address": "1601 W Timberlane Dr #100, Plant City, FL 33566, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1601+W+Timberlane+Dr+#100,+Plant+City,+FL+33566,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "AdventHealth Dade City",
+            "address": "13100 Fort King Rd, Dade City, FL 33525, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=13100+Fort+King+Rd,+Dade+City,+FL+33525,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Outpatient Rehabilitation Center (Plant City)",
+            "address": "3198 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3198+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "Urgent Care USA",
+            "address": "413 N Alexander St, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=413+N+Alexander+St,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "Winter Haven Hospital",
+            "address": "200 Ave F NE, Winter Haven, FL 33881, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=200+Ave+F+NE,+Winter+Haven,+FL+33881,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        }
+    ],
+    "Progress Village": [
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "Riverview Regional Hospital",
+            "address": "12530 US-301, Riverview, FL 33579, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12530+US-301,+Riverview,+FL+33579,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "HCA Florida Riverview Emergency",
+            "address": "12530 US-301, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12530+US-301,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "Community Medical Group of Riverview",
+            "address": "9088 Progress Blvd, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9088+Progress+Blvd,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "10647 Big Bend Rd, Riverview, FL 33579, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10647+Big+Bend+Rd,+Riverview,+FL+33579,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "HCA Florida Pasadena Hospital",
+            "address": "1501 Pasadena Ave S, St. Petersburg, FL 33707, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1501+Pasadena+Ave+S,+St.+Petersburg,+FL+33707,+United+States"
+        },
+        {
+            "name": "St. Joseph's Women's Hospital",
+            "address": "3030 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "AdventHealth Centra Care Brandon/Riverview",
+            "address": "10222 Bloomingdale Ave, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10222+Bloomingdale+Ave,+Riverview,+FL+33578,+United+States"
+        }
+    ],
+    "Riverview": [
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "Riverview Regional Hospital",
+            "address": "12530 US-301, Riverview, FL 33579, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12530+US-301,+Riverview,+FL+33579,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "HCA Florida Riverview Emergency",
+            "address": "12530 US-301, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12530+US-301,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "AdventHealth Care Pavilion Bloomingdale",
+            "address": "13403 Boyette Rd, Riverview, FL 33569, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=13403+Boyette+Rd,+Riverview,+FL+33569,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "10647 Big Bend Rd, Riverview, FL 33579, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10647+Big+Bend+Rd,+Riverview,+FL+33579,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South Emergency Center",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "BayCare Outpatient Center (Riverview)",
+            "address": "10141 Big Bend Rd, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10141+Big+Bend+Rd,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "Orlando Health Bayfront Hospital",
+            "address": "701 6th St S, St. Petersburg, FL 33701, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=701+6th+St+S,+St.+Petersburg,+FL+33701,+United+States"
+        },
+        {
+            "name": "AdventHealth Centra Care Brandon/Riverview",
+            "address": "10222 Bloomingdale Ave, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10222+Bloomingdale+Ave,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "TGH Urgent Care powered by Fast Track (Riverview)",
+            "address": "11406 US-301, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=11406+US-301,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "HCA Florida Largo West Hospital",
+            "address": "2025 Indian Rocks Rd, Largo, FL 33774, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2025+Indian+Rocks+Rd,+Largo,+FL+33774,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "HCA Florida Pasadena Hospital",
+            "address": "1501 Pasadena Ave S, St. Petersburg, FL 33707, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1501+Pasadena+Ave+S,+St.+Petersburg,+FL+33707,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        }
+    ],
+    "Ruskin": [
+        {
+            "name": "HCA Florida South Shore Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "HCA Florida Blake Hospital",
+            "address": "2020 59th St W, Bradenton, FL 34209, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2020+59th+St+W,+Bradenton,+FL+34209,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Manatee Memorial Hospital",
+            "address": "206 2nd St E, Bradenton, FL 34208, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=206+2nd+St+E,+Bradenton,+FL+34208,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "St. Anthony's Hospital",
+            "address": "1200 7th Ave N, St. Petersburg, FL 33705, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1200+7th+Ave+N,+St.+Petersburg,+FL+33705,+United+States"
+        },
+        {
+            "name": "HCA Florida Pasadena Hospital",
+            "address": "1501 Pasadena Ave S, St. Petersburg, FL 33707, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1501+Pasadena+Ave+S,+St.+Petersburg,+FL+33707,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital Emergency Room",
+            "address": "N, 4016 Sun City Center Blvd 1st Floor, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=N,+4016+Sun+City+Center+Blvd+1st+Floor,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "ER at Sun City Center",
+            "address": "16504 US-301, Wimauma, FL 33598, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=16504+US-301,+Wimauma,+FL+33598,+United+States"
+        },
+        {
+            "name": "Lakewood Ranch Medical Center",
+            "address": "8330 Lakewood Ranch Blvd, Lakewood Ranch, FL 34202, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=8330+Lakewood+Ranch+Blvd,+Lakewood+Ranch,+FL+34202,+United+States"
+        },
+        {
+            "name": "Orlando Health Bayfront Hospital",
+            "address": "701 6th St S, St. Petersburg, FL 33701, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=701+6th+St+S,+St.+Petersburg,+FL+33701,+United+States"
+        },
+        {
+            "name": "Morton Plant Hospital",
+            "address": "300 Pinellas St, Clearwater, FL 33756, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=300+Pinellas+St,+Clearwater,+FL+33756,+United+States"
+        },
+        {
+            "name": "Riverview Regional Hospital",
+            "address": "12530 US-301, Riverview, FL 33579, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12530+US-301,+Riverview,+FL+33579,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - St. Petersburg",
+            "address": "3030 6th St S, St. Petersburg, FL 33705, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+6th+St+S,+St.+Petersburg,+FL+33705,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        }
+    ],
+    "Seffner": [
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "Brandon Regional Hospital at Temple Terrace",
+            "address": "5234 E Fowler Ave, Temple Terrace, FL 33617, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5234+E+Fowler+Ave,+Temple+Terrace,+FL+33617,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "HCA Florida Bayonet Point Hospital",
+            "address": "14000 Fivay Rd, Hudson, FL 34667, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=14000+Fivay+Rd,+Hudson,+FL+34667,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "BayCare Hospital Wesley Chapel",
+            "address": "4501 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4501+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "St. Joseph's Women's Hospital",
+            "address": "3030 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Express Care of Tampa Bay",
+            "address": "4018 Highview Rd, Seffner, FL 33584, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4018+Highview+Rd,+Seffner,+FL+33584,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "AdventHealth Zephyrhills",
+            "address": "7050 Gall Blvd, Zephyrhills, FL 33541, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7050+Gall+Blvd,+Zephyrhills,+FL+33541,+United+States"
+        }
+    ],
+    "Sun City Center": [
+        {
+            "name": "HCA Florida South Shore Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "ER at Sun City Center",
+            "address": "16504 US-301, Wimauma, FL 33598, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=16504+US-301,+Wimauma,+FL+33598,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital Emergency Room",
+            "address": "N, 4016 Sun City Center Blvd 1st Floor, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=N,+4016+Sun+City+Center+Blvd+1st+Floor,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "Medical Center of Sun City",
+            "address": "772 Cortaro Dr, Ruskin, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=772+Cortaro+Dr,+Ruskin,+FL+33573,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "Florida Cancer Specialists & Research Institute",
+            "address": "4051 Upper Creek Dr Ste 103B, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4051+Upper+Creek+Dr+Ste+103B,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "TGH Urgent Care powered by Fast Track (Sun City Center)",
+            "address": "16521 US-301, Wimauma, FL 33598, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=16521+US-301,+Wimauma,+FL+33598,+United+States"
+        },
+        {
+            "name": "Sunhill Medical Center",
+            "address": "3909 Galen Ct Suite # 102, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3909+Galen+Ct+Suite+#+102,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "Souhbay Hospital Sun City",
+            "address": "1901 Haverford Ave, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1901+Haverford+Ave,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "BayCare Medical Group Primary Care (Sun City Center)",
+            "address": "131 S Pebble Beach Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=131+S+Pebble+Beach+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "Cano Health - Sun City",
+            "address": "1647 Sun City Center Plaza #104, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1647+Sun+City+Center+Plaza+#104,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "Sun City Ambulatory Surgery center | PPOA",
+            "address": "916 Cypress Village Blvd, Ruskin, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=916+Cypress+Village+Blvd,+Ruskin,+FL+33573,+United+States"
+        },
+        {
+            "name": "Riverview Regional Hospital",
+            "address": "12530 US-301, Riverview, FL 33579, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12530+US-301,+Riverview,+FL+33579,+United+States"
+        },
+        {
+            "name": "Fresenius Medical Care at South Bay Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        }
+    ],
+    "Tampa": [
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Brooksville",
+            "address": "17240 Cortez Blvd, Brooksville, FL 34601, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=17240+Cortez+Blvd,+Brooksville,+FL+34601,+United+States"
+        },
+        {
+            "name": "St. Joseph's Women's Hospital",
+            "address": "3030 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "St. Joseph's Children's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa ER",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "North Tampa Behavioral Health Hospital",
+            "address": "29910 State Rd 56, Wesley Chapel, FL 33543, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=29910+State+Rd+56,+Wesley+Chapel,+FL+33543,+United+States"
+        },
+        {
+            "name": "Morton Plant Hospital",
+            "address": "300 Pinellas St, Clearwater, FL 33756, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=300+Pinellas+St,+Clearwater,+FL+33756,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "Mease Countryside Hospital",
+            "address": "3231 McMullen Booth Rd, Safety Harbor, FL 34695, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3231+McMullen+Booth+Rd,+Safety+Harbor,+FL+34695,+United+States"
+        }
+    ],
+    "Temple Terrace": [
+        {
+            "name": "Brandon Regional Hospital at Temple Terrace",
+            "address": "5234 E Fowler Ave, Temple Terrace, FL 33617, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5234+E+Fowler+Ave,+Temple+Terrace,+FL+33617,+United+States"
+        },
+        {
+            "name": "Emergency Room",
+            "address": "5234 E Fowler Ave, Temple Terrace, FL 33617, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5234+E+Fowler+Ave,+Temple+Terrace,+FL+33617,+United+States"
+        },
+        {
+            "name": "AdventHealth Centra Care Temple Terrace",
+            "address": "5802 E Fowler Ave, Temple Terrace, FL 33617, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5802+E+Fowler+Ave,+Temple+Terrace,+FL+33617,+United+States"
+        },
+        {
+            "name": "HCA Florida University Emergency",
+            "address": "5234 E Fowler Ave, Temple Terrace, FL 33617, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5234+E+Fowler+Ave,+Temple+Terrace,+FL+33617,+United+States"
+        }
+    ],
+    "Thonotosassa": [
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "Brandon Regional Hospital at Temple Terrace",
+            "address": "5234 E Fowler Ave, Temple Terrace, FL 33617, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5234+E+Fowler+Ave,+Temple+Terrace,+FL+33617,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "BayCare Hospital Wesley Chapel",
+            "address": "4501 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4501+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "Thonotosassa Community Health Center - Suncoast Community Health Centers",
+            "address": "9555 E Fowler Ave, Thonotosassa, FL 33592, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9555+E+Fowler+Ave,+Thonotosassa,+FL+33592,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Brooksville",
+            "address": "17240 Cortez Blvd, Brooksville, FL 34601, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=17240+Cortez+Blvd,+Brooksville,+FL+34601,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Spring Hill",
+            "address": "10461 Quality Dr, Spring Hill, FL 34609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10461+Quality+Dr,+Spring+Hill,+FL+34609,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "AdventHealth Zephyrhills",
+            "address": "7050 Gall Blvd, Zephyrhills, FL 33541, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7050+Gall+Blvd,+Zephyrhills,+FL+33541,+United+States"
+        },
+        {
+            "name": "HCA Florida Bayonet Point Hospital",
+            "address": "14000 Fivay Rd, Hudson, FL 34667, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=14000+Fivay+Rd,+Hudson,+FL+34667,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        }
+    ],
+    "Town 'n' Country": [
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "Mease Countryside Hospital",
+            "address": "3231 McMullen Booth Rd, Safety Harbor, FL 34695, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3231+McMullen+Booth+Rd,+Safety+Harbor,+FL+34695,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital Emergency Room",
+            "address": "6001 Webb Rd 1st Floor, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd+1st+Floor,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "Morton Plant Hospital",
+            "address": "300 Pinellas St, Clearwater, FL 33756, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=300+Pinellas+St,+Clearwater,+FL+33756,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "Fresenius Medical Care at Town And Country Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "Mease Dunedin Hospital",
+            "address": "601 Main St, Dunedin, FL 34698, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=601+Main+St,+Dunedin,+FL+34698,+United+States"
+        },
+        {
+            "name": "St. Joseph's Women's Hospital",
+            "address": "3030 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "St. Joseph's Children's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "HCA Florida Largo West Hospital",
+            "address": "2025 Indian Rocks Rd, Largo, FL 33774, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2025+Indian+Rocks+Rd,+Largo,+FL+33774,+United+States"
+        }
+    ],
+    "University": [
+        {
+            "name": "HCA Florida University Hospital",
+            "address": "3476 S University Dr, Davie, FL 33328, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3476+S+University+Dr,+Davie,+FL+33328,+United+States"
+        },
+        {
+            "name": "UF Health Shands Hospital",
+            "address": "1600 SW Archer Rd, Gainesville, FL 32608, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1600+SW+Archer+Rd,+Gainesville,+FL+32608,+United+States"
+        },
+        {
+            "name": "HCA Florida Memorial Hospital",
+            "address": "3625 University Blvd S, Jacksonville, FL 32216, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3625+University+Blvd+S,+Jacksonville,+FL+32216,+United+States"
+        },
+        {
+            "name": "HCA Florida North Florida Hospital",
+            "address": "6500 W Newberry Rd, Gainesville, FL 32605, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6500+W+Newberry+Rd,+Gainesville,+FL+32605,+United+States"
+        },
+        {
+            "name": "UF Health Springhill",
+            "address": "4037 NW 86th Terrace, Gainesville, FL 32606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4037+NW+86th+Terrace,+Gainesville,+FL+32606,+United+States"
+        },
+        {
+            "name": "UF Health Leesburg Hospital",
+            "address": "600 E Dixie Ave, Leesburg, FL 34748, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=600+E+Dixie+Ave,+Leesburg,+FL+34748,+United+States"
+        },
+        {
+            "name": "HCA Florida Woodmont Hospital",
+            "address": "7201 N University Dr, Tamarac, FL 33321, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7201+N+University+Dr,+Tamarac,+FL+33321,+United+States"
+        },
+        {
+            "name": "UF Health Shands Cancer Hospital",
+            "address": "1515 SW Archer Rd, Gainesville, FL 32608, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1515+SW+Archer+Rd,+Gainesville,+FL+32608,+United+States"
+        },
+        {
+            "name": "UHealth Tower",
+            "address": "1400 NW 12th Ave, Miami, FL 33136, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1400+NW+12th+Ave,+Miami,+FL+33136,+United+States"
+        },
+        {
+            "name": "UF Health Jacksonville",
+            "address": "655 8th St W, Jacksonville, FL 32209, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=655+8th+St+W,+Jacksonville,+FL+32209,+United+States"
+        },
+        {
+            "name": "UF Health Spanish Plaines Hospital",
+            "address": "1451 El Camino Real, The Villages, FL 32159, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1451+El+Camino+Real,+The+Villages,+FL+32159,+United+States"
+        },
+        {
+            "name": "UF Health Medical Plaza",
+            "address": "1549 Gale Lemerand Dr, Gainesville, FL 32610, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1549+Gale+Lemerand+Dr,+Gainesville,+FL+32610,+United+States"
+        },
+        {
+            "name": "UF Health Flagler Hospital",
+            "address": "400 Health Park Blvd, St. Augustine, FL 32086, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=400+Health+Park+Blvd,+St.+Augustine,+FL+32086,+United+States"
+        },
+        {
+            "name": "University Of Florida Hospital Onc",
+            "address": "1600 SW Archer Rd, Gainesville, FL 32603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1600+SW+Archer+Rd,+Gainesville,+FL+32603,+United+States"
+        },
+        {
+            "name": "UF Health North",
+            "address": "15255 Max Leggett Pkwy, Jacksonville, FL 32218, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=15255+Max+Leggett+Pkwy,+Jacksonville,+FL+32218,+United+States"
+        },
+        {
+            "name": "UF Health Psychiatric Hospital",
+            "address": "4101 NW 89 Blvd, Gainesville, FL 32606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4101+NW+89+Blvd,+Gainesville,+FL+32606,+United+States"
+        },
+        {
+            "name": "VA HOSPITAL, GNV",
+            "address": "1601 SW Archer Rd, Gainesville, FL 32608, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1601+SW+Archer+Rd,+Gainesville,+FL+32608,+United+States"
+        },
+        {
+            "name": "HCA Florida North Florida Hospital Emergency Room",
+            "address": "6500 W Newberry Rd, Gainesville, FL 32605, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6500+W+Newberry+Rd,+Gainesville,+FL+32605,+United+States"
+        },
+        {
+            "name": "UF Health Heart & Vascular Hospital",
+            "address": "1505 SW Archer Rd, Gainesville, FL 32608, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1505+SW+Archer+Rd,+Gainesville,+FL+32608,+United+States"
+        },
+        {
+            "name": "UF Health Shands Emergency Center - Springhill",
+            "address": "8475 NW 39th Ave, Gainesville, FL 32606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=8475+NW+39th+Ave,+Gainesville,+FL+32606,+United+States"
+        }
+    ],
+    "Valrico": [
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "BayCare Urgent Care (Valrico) \u2013 Occupational Health",
+            "address": "In front of LA Fitness, 2016 State Rd 60, Valrico, FL 33594, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=In+front+of+LA+Fitness,+2016+State+Rd+60,+Valrico,+FL+33594,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "AdventHealth Brandon ER",
+            "address": "305 E Brandon Blvd, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=305+E+Brandon+Blvd,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital Emergency Room",
+            "address": "119 Oakfield Dr Ground Floor, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr+Ground+Floor,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "Children's Emergency Department at HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr Ground Floor, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr+Ground+Floor,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "HCA Healthcare",
+            "address": "560 S Lakewood Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=560+S+Lakewood+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "BayCare Hospital Wesley Chapel",
+            "address": "4501 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4501+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Brooksville",
+            "address": "17240 Cortez Blvd, Brooksville, FL 34601, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=17240+Cortez+Blvd,+Brooksville,+FL+34601,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "Brandon Regional Hospital at Temple Terrace",
+            "address": "5234 E Fowler Ave, Temple Terrace, FL 33617, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=5234+E+Fowler+Ave,+Temple+Terrace,+FL+33617,+United+States"
+        },
+        {
+            "name": "Riverview Regional Hospital",
+            "address": "12530 US-301, Riverview, FL 33579, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12530+US-301,+Riverview,+FL+33579,+United+States"
+        },
+        {
+            "name": "AdventHealth Wesley Chapel",
+            "address": "2600 Bruce B Downs Blvd, Wesley Chapel, FL 33544, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2600+Bruce+B+Downs+Blvd,+Wesley+Chapel,+FL+33544,+United+States"
+        },
+        {
+            "name": "BayCare HealthHub (Bloomingdale)",
+            "address": "2470 Bloomingdale Ave, Valrico, FL 33596, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2470+Bloomingdale+Ave,+Valrico,+FL+33596,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        }
+    ],
+    "Westchase": [
+        {
+            "name": "AdventHealth Westchase ER",
+            "address": "10977 Sheldon Rd, Tampa, FL 33626, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10977+Sheldon+Rd,+Tampa,+FL+33626,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital",
+            "address": "6001 Webb Rd, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "Mease Countryside Hospital",
+            "address": "3231 McMullen Booth Rd, Safety Harbor, FL 34695, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3231+McMullen+Booth+Rd,+Safety+Harbor,+FL+34695,+United+States"
+        },
+        {
+            "name": "HCA Florida Citrus Park Emergency",
+            "address": "12922 Sheldon Rd, Tampa, FL 33626, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12922+Sheldon+Rd,+Tampa,+FL+33626,+United+States"
+        },
+        {
+            "name": "HCA Florida Largo West Hospital",
+            "address": "2025 Indian Rocks Rd, Largo, FL 33774, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2025+Indian+Rocks+Rd,+Largo,+FL+33774,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Central Tampa",
+            "address": "4801 N Howard Ave, Tampa, FL 33603, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4801+N+Howard+Ave,+Tampa,+FL+33603,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- North",
+            "address": "4211 Van Dyke Rd, Lutz, FL 33558, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4211+Van+Dyke+Rd,+Lutz,+FL+33558,+United+States"
+        },
+        {
+            "name": "Morton Plant Hospital",
+            "address": "300 Pinellas St, Clearwater, FL 33756, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=300+Pinellas+St,+Clearwater,+FL+33756,+United+States"
+        },
+        {
+            "name": "HCA Florida West Tampa Hospital Emergency Room",
+            "address": "6001 Webb Rd 1st Floor, Tampa, FL 33615, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6001+Webb+Rd+1st+Floor,+Tampa,+FL+33615,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Brooksville",
+            "address": "17240 Cortez Blvd, Brooksville, FL 34601, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=17240+Cortez+Blvd,+Brooksville,+FL+34601,+United+States"
+        },
+        {
+            "name": "HCA Florida Trinity Hospital",
+            "address": "9330 State Rd 54, Trinity, FL 34655, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=9330+State+Rd+54,+Trinity,+FL+34655,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "AdventHealth Care Pavilion Westchase",
+            "address": "10987 Sheldon Rd Suite 200, Tampa, FL 33626, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=10987+Sheldon+Rd+Suite+200,+Tampa,+FL+33626,+United+States"
+        },
+        {
+            "name": "St. Joseph's Women's Hospital",
+            "address": "3030 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3030+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        }
+    ],
+    "Wimauma": [
+        {
+            "name": "HCA Florida South Shore Hospital",
+            "address": "4016 Sun City Center Blvd, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4016+Sun+City+Center+Blvd,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "ER at Sun City Center",
+            "address": "16504 US-301, Wimauma, FL 33598, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=16504+US-301,+Wimauma,+FL+33598,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital- South",
+            "address": "6901 Simmons Loop, Riverview, FL 33578, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=6901+Simmons+Loop,+Riverview,+FL+33578,+United+States"
+        },
+        {
+            "name": "HCA Florida South Shore Hospital Emergency Room",
+            "address": "N, 4016 Sun City Center Blvd 1st Floor, Sun City Center, FL 33573, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=N,+4016+Sun+City+Center+Blvd+1st+Floor,+Sun+City+Center,+FL+33573,+United+States"
+        },
+        {
+            "name": "Riverview Regional Hospital",
+            "address": "12530 US-301, Riverview, FL 33579, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=12530+US-301,+Riverview,+FL+33579,+United+States"
+        },
+        {
+            "name": "HCA Florida South Tampa Hospital",
+            "address": "2901 W Swann Ave, Tampa, FL 33609, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2901+W+Swann+Ave,+Tampa,+FL+33609,+United+States"
+        },
+        {
+            "name": "HCA Florida Brandon Hospital",
+            "address": "119 Oakfield Dr, Brandon, FL 33511, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=119+Oakfield+Dr,+Brandon,+FL+33511,+United+States"
+        },
+        {
+            "name": "Manatee Memorial Hospital",
+            "address": "206 2nd St E, Bradenton, FL 34208, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=206+2nd+St+E,+Bradenton,+FL+34208,+United+States"
+        },
+        {
+            "name": "AdventHealth Tampa",
+            "address": "3100 E Fletcher Ave, Tampa, FL 33613, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3100+E+Fletcher+Ave,+Tampa,+FL+33613,+United+States"
+        },
+        {
+            "name": "St. Joseph's Hospital",
+            "address": "3001 W Dr Martin Luther King Jr Blvd, Tampa, FL 33607, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3001+W+Dr+Martin+Luther+King+Jr+Blvd,+Tampa,+FL+33607,+United+States"
+        },
+        {
+            "name": "HCA Florida Pasadena Hospital",
+            "address": "1501 Pasadena Ave S, St. Petersburg, FL 33707, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1501+Pasadena+Ave+S,+St.+Petersburg,+FL+33707,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital Brooksville",
+            "address": "17240 Cortez Blvd, Brooksville, FL 34601, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=17240+Cortez+Blvd,+Brooksville,+FL+34601,+United+States"
+        },
+        {
+            "name": "Kindred Hospital Bay Area - Tampa",
+            "address": "4555 S Manhattan Ave, Tampa, FL 33611, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=4555+S+Manhattan+Ave,+Tampa,+FL+33611,+United+States"
+        },
+        {
+            "name": "HCA Florida Blake Hospital",
+            "address": "2020 59th St W, Bradenton, FL 34209, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=2020+59th+St+W,+Bradenton,+FL+34209,+United+States"
+        },
+        {
+            "name": "South Florida Baptist Hospital",
+            "address": "3202 N Park Rd, Plant City, FL 33563, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=3202+N+Park+Rd,+Plant+City,+FL+33563,+United+States"
+        },
+        {
+            "name": "AdventHealth Carrollwood Hospital",
+            "address": "7171 N Dale Mabry Hwy, Tampa, FL 33614, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=7171+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
+        },
+        {
+            "name": "Wimauma Community Health Center - Suncoast Community Health Centers",
+            "address": "16621 Lagoon Shore Blvd, Wimauma, FL 33598, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=16621+Lagoon+Shore+Blvd,+Wimauma,+FL+33598,+United+States"
+        },
+        {
+            "name": "Tampa General Hospital",
+            "address": "1 Tampa General Cir, Tampa, FL 33606, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1+Tampa+General+Cir,+Tampa,+FL+33606,+United+States"
+        },
+        {
+            "name": "St. Anthony's Hospital",
+            "address": "1200 7th Ave N, St. Petersburg, FL 33705, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=1200+7th+Ave+N,+St.+Petersburg,+FL+33705,+United+States"
+        },
+        {
+            "name": "Orlando Health Bayfront Hospital",
+            "address": "701 6th St S, St. Petersburg, FL 33701, United States",
+            "maps_link": "https://www.google.com/maps/search/?api=1&query=701+6th+St+S,+St.+Petersburg,+FL+33701,+United+States"
+        }
+    ]
+}

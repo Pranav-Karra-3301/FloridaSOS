@@ -1,13 +1,14 @@
 'use client';
 
 import Image from "next/image";
-// import ArticleCarousel from "../components/ArticleCarousel";
 import Alert from "../components/alert";
 import { useState } from 'react';
 import gasStationsData from '../Data/gas_stations_hillsborough.json';
 import hotelsData from '../Data/hotels_hillsborough.json';
 import sheltersData from '../Data/shelters_with_google_maps.json';
 import foodPantriesData from '../Data/food_pantries.json';
+import hospitalsData from '../Data/hospitals_hillsborough.json';
+import powerOutagesData from '../Data/power_outages.json';
 
 export default function Home() {
   const emergencyInfo = {
@@ -17,9 +18,9 @@ export default function Home() {
   };
 
   const evacuationPlans = [
-    { county: "Hillsborough County", filename: "hillsborough_evac_plan.pdf" },
-    { county: "Orange County", filename: "orange_evac_plan.pdf" },
-    { county: "Osceola County", filename: "osceola_evac_plan.pdf" },
+    { county: "Hillsborough County", filename: "/evac_plans/hillsborough_evac_plan.pdf" },
+    { county: "Orange County", filename: "/evac_plans/orange_evac_plan.pdf" },
+    { county: "Osceola County", filename: "/evac_plans/osceola_evac_plan.pdf" },
   ];
 
   const [selectedCounty, setSelectedCounty] = useState('');
@@ -282,6 +283,87 @@ Please stay safe and follow local guidance." />
           </section>
         </div>
         
+
+        {/* Power Outages Section */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-bold mb-4">Power Outages</h2>
+          <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
+            <div className="grid grid-cols-2 gap-4 mb-4">
+              <div>
+                <p className="text-lg">County: <span className="font-bold">{powerOutagesData.County}</span></p>
+                <p className="text-lg">Total Customers: <span className="font-bold">{powerOutagesData["Total Customers Tracked"].toLocaleString()}</span></p>
+              </div>
+              <div>
+                <p className="text-lg">Customers Out: <span className="font-bold text-red-500">{powerOutagesData["Customers Out"].toLocaleString()}</span></p>
+                <p className="text-lg">Outage Percentage: <span className="font-bold text-red-500">{powerOutagesData["Outage Percentage"]}</span></p>
+              </div>
+            </div>
+            <div className="mt-4">
+              <h3 className="text-xl font-bold mb-2">Providers</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {powerOutagesData.Providers.map((provider, index) => (
+                  <div key={index} className="bg-gray-800 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">{provider.Provider}</h4>
+                    <p>Customers Tracked: {provider["Customers Tracked"]}</p>
+                    <p>Customers Out: <span className="text-red-500">{provider["Customers Out"]}</span></p>
+                    <p className="text-sm text-gray-400">Last Updated: {provider["Last Updated"]}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Hospitals Section */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-bold mb-4">Hospitals</h2>
+          <div className="mb-4">
+            <label htmlFor="county-select" className="block text-sm font-bold text-white uppercase mb-2">
+              SELECT CITY:
+            </label>
+            <div className="relative">
+              <select
+                id="county-select"
+                value={selectedCounty}
+                onChange={(e) => setSelectedCounty(e.target.value)}
+                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md bg-black text-white shadow-[0_0_10px_rgba(59,130,246,0.5)] border-2 border-blue-500 transition-all duration-300 ease-in-out hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]"
+              >
+                <option value="">Select a City</option>
+                {Object.keys(hospitalsData).map((county) => (
+                  <option key={county} value={county}>
+                    {county}
+                  </option>
+                ))}
+              </select>
+              <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+                <svg className="h-4 w-4 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          {selectedCounty && hospitalsData[selectedCounty as keyof typeof hospitalsData] && (
+            <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
+              <h3 className="text-xl font-bold mb-4">Hospitals in {selectedCounty}</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {hospitalsData[selectedCounty as keyof typeof hospitalsData].map((hospital, index) => (
+                  <div key={index} className="bg-gray-800 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">{hospital.name}</h4>
+                    <p className="text-sm mb-2">{hospital.address}</p>
+                    <a 
+                      href={hospital.maps_link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:underline text-sm"
+                    >
+                      View on Google Maps
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </section>
         {/* Available Services Section */}
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">Available Services Nearby</h2>
@@ -300,7 +382,7 @@ Please stay safe and follow local guidance." />
           </div>
           <div className="mb-4">
             <label htmlFor="county-select" className="block text-sm font-bold text-white uppercase mb-2">
-              SELECT COUNTY:
+              SELECT CITY:
             </label>
             <div className="relative">
               <select
@@ -309,7 +391,7 @@ Please stay safe and follow local guidance." />
                 onChange={(e) => setSelectedCounty(e.target.value)}
                 className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md bg-black text-white shadow-[0_0_10px_rgba(59,130,246,0.5)] border-2 border-blue-500 transition-all duration-300 ease-in-out hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]"
               >
-                <option value="">Select a county</option>
+                <option value="">Select a City</option>
                 {counties.map((county) => (
                   <option key={county} value={county}>
                     {county}
@@ -431,6 +513,7 @@ Please stay safe and follow local guidance." />
             </div>
           )}
         </section>
+
 
         {/* Resources Section */}
         <section className="mb-8">
