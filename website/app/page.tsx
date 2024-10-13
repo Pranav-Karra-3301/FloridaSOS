@@ -18,9 +18,9 @@ export default function Home() {
   };
 
   const evacuationPlans = [
-    { county: "Hillsborough County", filename: "/evac_plans/hillsborough_evac_plan.pdf" },
-    { county: "Orange County", filename: "/evac_plans/orange_evac_plan.pdf" },
-    { county: "Osceola County", filename: "/evac_plans/osceola_evac_plan.pdf" },
+    { county: "Hillsborough County", filename: "evac_plans/hillsborough_evac_plan.pdf" },
+    { county: "Orange County", filename: "evac_plans/orange_evac_plan.pdf" },
+    { county: "Osceola County", filename: "evac_plans/osceola_evac_plan.pdf" },
   ];
 
   const [selectedCounty, setSelectedCounty] = useState('');
