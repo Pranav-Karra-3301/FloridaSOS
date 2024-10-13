@@ -1,6 +1,14 @@
+'use client';
+
 import Image from "next/image";
 import ArticleCarousel from "../components/ArticleCarousel";
 import Alert from "../components/alert";
+import { useState } from 'react';
+import gasStationsData from '../Data/gas_stations_hillsborough.json';
+import hotelsData from '../Data/hotels_hillsborough.json';
+import sheltersData from '../Data/shelters_with_google_maps.json';
+import foodPantriesData from '../Data/food_pantries.json';
+
 export default function Home() {
   const emergencyInfo = {
     summary: "This is a summary of emergency information. Please download the PDF or Print this webpage for complete details.",
@@ -13,6 +21,23 @@ export default function Home() {
     { county: "Orange County", filename: "orange_evac_plan.pdf" },
     { county: "Osceola County", filename: "osceola_evac_plan.pdf" },
   ];
+
+  const [selectedCounty, setSelectedCounty] = useState('');
+  const [selectedOptions, setSelectedOptions] = useState({
+    hotels: true,
+    gasStations: true,
+    shelters: true,
+    foodPantries: true
+  });
+
+  const counties = Object.keys(gasStationsData);
+
+  const handleOptionChange = (option: keyof typeof selectedOptions) => {
+    setSelectedOptions(prev => ({ ...prev, [option]: !prev[option] }));
+  };
+
+  const getSelectedCount = () => Object.values(selectedOptions).filter(Boolean).length;
+
   return (
     <div className="min-h-screen p-8 font-sans">
       <header className="text-center mb-8">
@@ -114,7 +139,7 @@ Please stay safe and follow local guidance." />
                 <span className="ml-1 text-red-500 text-sm">LIVE</span>
               </span>
             </h2>
-            <div className="grid grid-cols-1 gap-4">
+            <div className="grid grid-cols-1 gap-4 h-[500px] overflow-y-auto">
               {[
                 { title: "Florida Lieutenant Dan, Joseph Malinowski daughter lashes out against influencers after Hurricane Milton", url: "https://nypost.com/2024/10/12/us-news/florida-lieutenant-dan-joseph-malinowski-daughter-lashes-out-against-influencers-after-hurricane-milton/", date: "October 12, 2024, 10:53 AM", preview: "" },
                 { title: "Lightning beat Hurricanes after extended stay due to Hurricane Milton", url: "https://apnews.com/article/nhl-tampa-bay-lightning-hurricane-milton-dbba41c2e63a4d4a11a9488ce97d7624", date: "October 12, 2024, 07:56 AM", preview: "" },
@@ -123,9 +148,6 @@ Please stay safe and follow local guidance." />
                 { title: "Peso Pluma Cancels Florida Concerts, Donates to Hurricane Relief Funds", url: "https://www.billboard.com/music/latin/peso-pluma-cancels-tampa-miami-concerts-hurricane-milton-florida-1235798897/", date: "October 11, 2024, 08:19 PM", preview: "" },
                 { title: "Milton death toll rises to 17 as rescuers navigate rising Tampa Bay floodwaters", url: "https://www.upi.com/Top_News/2024/10/11/Milton-death-toll-rises-16-rescuers-navigate-rising-Tampa-Bay-floodwaters/8471728666255/", date: "October 11, 2024, 07:00 PM", preview: "" },
                 { title: "Hurricane Milton damage photos in Florida, drone images of Tampa, Sarasota, Fort Myers, Vero Beach", url: "https://news.yahoo.com/news/hurricane-milton-damage-photos-florida-155507590.html", date: "October 11, 2024, 05:36 PM", preview: "" },
-                { title: "Residents repair, clean up after Hurricane Milton", url: "https://www.nydailynews.com/2024/10/11/hurricane-milton-cleanup-recovery/", date: "October 11, 2024, 03:05 PM", preview: "" },
-                { title: "Boat captain rescued clinging to cooler in Gulf of Mexico after storm Milton", url: "https://www.rawstory.com/boat-captain-rescued-clinging-to-cooler-in-gulf-of-mexico-after-storm-milton/", date: "October 11, 2024, 02:20 PM", preview: "" },
-                { title: "Residents slog through flooded streets, pick up debris after Hurricane Milton tore through Florida", url: "https://cdapress.com/news/2024/oct/11/residents-slog-through-flooded-streets-pick-up-debris-after-hurricane-milton-tore-through-florida/", date: "October 11, 2024, 04:00 AM", preview: "" },
               ].map((article, index) => (
                 <div key={index} className="bg-black shadow-md rounded-lg p-4 transition-shadow duration-300 hover:shadow-lg">
                   <h3 className="font-bold mb-2">{article.title}</h3>
@@ -146,8 +168,8 @@ Please stay safe and follow local guidance." />
           {/* Latest Images Section */}
           <section className="md:w-1/2">
             <h2 className="text-2xl font-bold mb-4">Latest Images</h2>
-            <div className="grid grid-cols-2 gap-4">
-              {["/1.png", "/2.png", "/3.png", "/4.jpg", "/5.jpg", "/6.jpg", "/7.jpg", "/8.jpg", "/9.jpeg", "/10.jpg", "/11.jpg", "/12.jpg", "/13.jpg"].map((src, index) => (
+            <div className="grid grid-cols-2 gap-4 h-[500px] overflow-y-auto">
+              {["/1.png", "/2.png", "/3.png", "/4.jpg", "/5.jpg", "/6.jpg"].map((src, index) => (
                 <div key={index} className="aspect-w-16 aspect-h-9">
                   <img
                     src={src}
@@ -159,49 +181,149 @@ Please stay safe and follow local guidance." />
             </div>
           </section>
         </div>
-
-        {/* Available Hotels Section */}
+        
+        {/* Available Services Section */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Available Hotels Nearby</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {[
-              {
-                name: "Holiday Inn Express & Suites Ruskin - Sun City, an IHG Hotel",
-                address: "226 Teco Rd, Ruskin, FL 33570, United States",
-                maps_link: "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+&+Suites+Ruskin+-+Sun+City,+an+IHG+Hotel+226+Teco+Rd,+Ruskin,+FL+33570,+United+States",
-                availability: "Available to Book"
-              },
-              {
-                name: "Hampton Inn & Suites Ruskin I-75",
-                address: "711 33rd St SE, Ruskin, FL 33570, United States",
-                maps_link: "https://www.google.com/maps/search/?api=1&query=Hampton+Inn+&+Suites+Ruskin+I-75+711+33rd+St+SE,+Ruskin,+FL+33570,+United+States",
-                availability: "Available to Book"
-              },
-              {
-                name: "The Inn at Little Harbor",
-                address: "611 Destiny Dr, Ruskin, FL 33570, United States",
-                maps_link: "https://www.google.com/maps/search/?api=1&query=The+Inn+at+Little+Harbor+611+Destiny+Dr,+Ruskin,+FL+33570,+United+States",
-                availability: "Unknown"
-              }
-            ].map((hotel, index) => (
-              <div key={index} className="bg-white shadow-md rounded-lg p-4">
-                <h3 className="font-bold mb-2">{hotel.name}</h3>
-                <p className="text-sm mb-2">{hotel.address}</p>
-                <p className="text-sm mb-2">Availability: {hotel.availability}</p>
-                <a 
-                  href={hotel.maps_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-500 hover:underline text-sm"
-                >
-                  View on Google Maps
-                </a>
-              </div>
+          <h2 className="text-2xl font-bold mb-4">Available Services Nearby</h2>
+          <div className="mb-4 flex flex-wrap gap-4">
+            {Object.entries(selectedOptions).map(([key, value]) => (
+              <label key={key} className="inline-flex items-center">
+                <input
+                  type="checkbox"
+                  checked={value}
+                  onChange={() => handleOptionChange(key as keyof typeof selectedOptions)}
+                  className="form-checkbox h-5 w-5 text-blue-600"
+                />
+                <span className="ml-2 text-white font-bold uppercase">{key.replace(/([A-Z])/g, ' $1').trim()}</span>
+              </label>
             ))}
           </div>
+          <div className="mb-4">
+            <label htmlFor="county-select" className="block text-sm font-bold text-white uppercase mb-2">
+              SELECT COUNTY:
+            </label>
+            <select
+              id="county-select"
+              value={selectedCounty}
+              onChange={(e) => setSelectedCounty(e.target.value)}
+              className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md bg-black text-white"
+            >
+              <option value="">Select a county</option>
+              {counties.map((county) => (
+                <option key={county} value={county}>
+                  {county}
+                </option>
+              ))}
+            </select>
+          </div>
+          {selectedCounty && (
+            <div className={`grid grid-cols-1 ${getSelectedCount() > 1 ? `md:grid-cols-2` : ''} ${getSelectedCount() > 2 ? `lg:grid-cols-3` : ''} ${getSelectedCount() > 3 ? `xl:grid-cols-4` : ''} gap-4`}>
+              {selectedOptions.hotels && (
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Hotels <span className="text-sm font-normal text-green-500">● Live</span></h3>
+                  {(hotelsData[selectedCounty as keyof typeof hotelsData] || []).slice(0, 5).map((hotel, index) => (
+                    <div key={index} className="bg-black shadow-md rounded-lg p-4 mb-2">
+                      <h4 className="font-bold mb-1">{hotel.name}</h4>
+                      <p className="text-sm mb-1">{hotel.address}</p>
+                      <p className="text-sm mb-1">Availability: {hotel.availability}</p>
+                      <a 
+                        href={hotel.maps_link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:underline text-sm"
+                      >
+                        View on Google Maps
+                      </a>
+                    </div>
+                  ))}
+                  {hotelsData[selectedCounty as keyof typeof hotelsData]?.length > 5 && (
+                    <button className="text-blue-500 hover:underline mt-2">See more hotels</button>
+                  )}
+                </div>
+              )}
+              
+              {selectedOptions.gasStations && (
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Gas Stations <span className="text-sm font-normal text-green-500">● Live</span></h3>
+                  {(gasStationsData[selectedCounty as keyof typeof gasStationsData] || []).slice(0, 5).map((station, index) => (
+                    <div key={index} className="bg-black shadow-md rounded-lg p-4 mb-2">
+                      <h4 className="font-bold mb-1">{station.name}</h4>
+                      <p className="text-sm mb-1">{station.address}</p>
+                      <a 
+                        href={station.maps_link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:underline text-sm"
+                      >
+                        View on Google Maps
+                      </a>
+                    </div>
+                  ))}
+                  {gasStationsData[selectedCounty as keyof typeof gasStationsData]?.length > 5 && (
+                    <button className="text-blue-500 hover:underline mt-2">See more gas stations</button>
+                  )}
+                </div>
+              )}
+
+              {selectedOptions.shelters && (
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Shelters</h3>
+                  {sheltersData.slice(0, 5).map((shelter, index) => (
+                    <div key={index} className="bg-black shadow-md rounded-lg p-4 mb-2">
+                      <h4 className="font-bold mb-1">{shelter.name}</h4>
+                      <p className="text-sm mb-1">{shelter.address}</p>
+                      <p className="text-sm mb-1">Phone: {shelter.phone}</p>
+                      <a 
+                        href={shelter.google_map}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:underline text-sm"
+                      >
+                        View on Google Maps
+                      </a>
+                    </div>
+                  ))}
+                  {sheltersData.length > 5 && (
+                    <button className="text-blue-500 hover:underline mt-2">See more shelters</button>
+                  )}
+                </div>
+              )}
+
+              {selectedOptions.foodPantries && (
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Food Pantries</h3>
+                  {foodPantriesData.slice(0, 5).map((pantry, index) => (
+                    <div key={index} className="bg-black shadow-md rounded-lg p-4 mb-2">
+                      <h4 className="font-bold mb-1">{pantry.name}</h4>
+                      <p className="text-sm mb-1">Phone: {pantry.phone || 'N/A'}</p>
+                      <a 
+                        href={pantry.address}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:underline text-sm"
+                      >
+                        View on Google Maps
+                      </a>
+                      {pantry.website && (
+                        <a 
+                          href={pantry.website}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block text-blue-500 hover:underline text-sm mt-1"
+                        >
+                          Visit Website
+                        </a>
+                      )}
+                    </div>
+                  ))}
+                  {foodPantriesData.length > 5 && (
+                    <button className="text-blue-500 hover:underline mt-2">See more food pantries</button>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
         </section>
-
-
 
         {/* Additional Sections */}
         <section className="mb-8">
