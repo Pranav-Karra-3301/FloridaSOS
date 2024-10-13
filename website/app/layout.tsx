@@ -16,6 +16,16 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "🌪️ Hurricane Warning Dashboard",
   description: "HackPSU Fall 2024 Submission",
+  openGraph: {
+    images: [
+      {
+        url: '/sat.gif',
+        width: 1200,
+        height: 630,
+        alt: 'Hurricane Warning Dashboard',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -25,6 +35,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:image" content="/sat.gif" />
+        <meta property="og:image:type" content="image/gif" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
