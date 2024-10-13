@@ -14,7 +14,7 @@ export default function Home() {
   const emergencyInfo = {
     summary: "This is a summary of emergency information. Please download the PDF or Print this webpage for complete details.",
     radioFrequencies: ["97.5 FM", "101.3 FM", "105.7 FM"],
-    pdfUrl: "/emergency_info.pdf", // Replace with actual PDF path
+    pdfUrl: "/emergency.pdf", // Replace with actual PDF path
   };
 
   const evacuationPlans = [
@@ -28,7 +28,8 @@ export default function Home() {
     hotels: true,
     gasStations: true,
     shelters: true,
-    foodPantries: true
+    foodPantries: true,
+    hospitals: true
   });
 
   const counties = Object.keys(gasStationsData);
@@ -314,58 +315,8 @@ Please stay safe and follow local guidance." />
           </div>
         </section>
 
-        {/* Hospitals Section */}
-        <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Hospitals</h2>
-          <div className="mb-4">
-            <label htmlFor="county-select" className="block text-sm font-bold text-white uppercase mb-2">
-              SELECT CITY:
-            </label>
-            <div className="relative">
-              <select
-                id="county-select"
-                value={selectedCounty}
-                onChange={(e) => setSelectedCounty(e.target.value)}
-                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md bg-black text-white shadow-[0_0_10px_rgba(59,130,246,0.5)] border-2 border-blue-500 transition-all duration-300 ease-in-out hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]"
-              >
-                <option value="">Select a City</option>
-                {Object.keys(hospitalsData).map((county) => (
-                  <option key={county} value={county}>
-                    {county}
-                  </option>
-                ))}
-              </select>
-              <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
-                <svg className="h-4 w-4 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-              </div>
-            </div>
-          </div>
-          {selectedCounty && hospitalsData[selectedCounty as keyof typeof hospitalsData] && (
-            <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold mb-4">Hospitals in {selectedCounty}</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {hospitalsData[selectedCounty as keyof typeof hospitalsData].map((hospital, index) => (
-                  <div key={index} className="bg-gray-800 p-4 rounded-lg">
-                    <h4 className="font-bold mb-2">{hospital.name}</h4>
-                    <p className="text-sm mb-2">{hospital.address}</p>
-                    <a 
-                      href={hospital.maps_link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-500 hover:underline text-sm"
-                    >
-                      View on Google Maps
-                    </a>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-        </section>
-        {/* Available Services Section */}
-        <section className="mb-8">
+{/* Available Services Section */}
+<section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">Available Services Nearby</h2>
           <div className="mb-4 flex flex-wrap gap-4">
             {Object.entries(selectedOptions).map(([key, value]) => (
@@ -512,7 +463,29 @@ Please stay safe and follow local guidance." />
               )}
             </div>
           )}
+
         </section>
+          {selectedOptions.hospitals && selectedCounty && (
+            <div className="bg-gray-900 p-6 rounded-lg shadow-lg mb-6">
+              <h3 className="text-2xl font-bold mb-4">Hospitals in {selectedCounty}</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {hospitalsData[selectedCounty as keyof typeof hospitalsData]?.map((hospital, index) => (
+                  <div key={index} className="bg-black p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">{hospital.name}</h4>
+                    <p className="text-sm mb-2">{hospital.address}</p>
+                    <a 
+                      href={hospital.maps_link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:underline text-sm"
+                    >
+                      View on Google Maps
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
 
         {/* Resources Section */}
