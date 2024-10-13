@@ -581,6 +581,26 @@ Please stay safe and follow local guidance." />
             </div>
           </div>
         </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-bold mb-4 text-center">Our Team</h2>
+        <div className="relative flex justify-center">
+          <div className="relative w-full max-w-3xl">
+            <Image
+              src="/team.png"
+              alt="Team Photo"
+              width={1200}
+              height={675}
+              className="rounded-lg shadow-lg object-cover"
+              style={{ maxHeight: '400px' }}
+            />
+            <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
+              <p className="text-center text-sm">
+                Left to right: Evan Sinocchi, Dev Pratap Singh, Dhruva Nagesh, Pranav Karra, Ruhan Malli, Andre Marinak
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       </main>
 
       <footer className="text-center text-sm text-gray-500 mt-8">
