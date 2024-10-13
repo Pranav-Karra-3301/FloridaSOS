@@ -3,7 +3,7 @@ import ArticleCarousel from "../components/ArticleCarousel";
 import Alert from "../components/alert";
 export default function Home() {
   const emergencyInfo = {
-    summary: "This is a summary of emergency information. Please download the PDF for complete details.",
+    summary: "This is a summary of emergency information. Please download the PDF or Print this webpage for complete details.",
     radioFrequencies: ["97.5 FM", "101.3 FM", "105.7 FM"],
     pdfUrl: "/emergency_info.pdf", // Replace with actual PDF path
   };
@@ -21,35 +21,34 @@ export default function Home() {
 
       <main>
         {/* Emergency Information Box */}
-        <div className="bg-red-500 border-2 border-red-700 p-6 mb-8 rounded-lg text-center text-white">
-          <h2 className="text-2xl font-bold mb-4">⚠️ Emergency Information ⚠️</h2>
-          <p className="mb-6">{emergencyInfo.summary}</p>
-          <h3 className="font-bold mb-3">❗️ Emergency Radio Frequencies ❗️</h3>
-          <ul className="list-none mb-6">
-            {emergencyInfo.radioFrequencies.map((freq, index) => (
-              <li key={index} className="mb-1">📻 {freq}</li>
-            ))}
-          </ul>
-          <div className="flex flex-wrap justify-center gap-4 mb-6">
+        <div className="bg-red-500 border-2 border-red-700 p-4 mb-6 rounded-lg text-center text-white">
+          <h2 className="text-xl font-bold mb-2">⚠️ Emergency Information</h2>
+          <p className="mb-3">{emergencyInfo.summary}</p>
+          <h3 className="font-bold mb-2">Emergency Radio: {emergencyInfo.radioFrequencies.join(', ')}</h3>
+          <div className="flex flex-wrap justify-center gap-2 mb-3">
             {evacuationPlans.map((plan, index) => (
               <a
                 key={index}
                 href={`/${plan.filename}`}
                 download
-                className="bg-white text-red-500 px-6 py-3 rounded-full hover:bg-red-100 transition-colors"
+                className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm hover:bg-blue-600"
               >
-                ⚠️ {plan.county} Evacuation Plan ⚠️
+                {plan.county} Evacuation Plan
               </a>
             ))}
           </div>
           <a 
             href={emergencyInfo.pdfUrl} 
             download 
-            className="bg-white text-red-500 px-6 py-3 rounded-full hover:bg-red-100 transition-colors inline-block"
+            className="bg-white text-red-500 px-3 py-1 rounded-full text-sm hover:bg-red-100"
           >
-            ⚠️ Download Emergency PDF ⚠️
+            Download Emergency PDF
           </a>
         </div>
+        {/* Alerts Section */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-bold mb-4">Alerts</h2>
+        </section>
         <Alert variant="destructive" message="Alert: HURRICANE MILTON Ongoing
 HURRICANE MILTON started on October 05, 2024 and is currently ongoing.
 Please stay safe and follow local guidance." />
@@ -74,11 +73,20 @@ Please stay safe and follow local guidance." />
         
         {/* Article Summary */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">News Summary</h2>
+          <h2 className="text-2xl font-bold mb-4 flex items-center">
+            A.I News Summary
+            <span className="ml-2 inline-flex items-center">
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+              </span>
+              <span className="ml-1 text-red-500 text-sm">LIVE</span>
+            </span>
+          </h2>
           <div className="relative group cursor-pointer">
             <div className="absolute -inset-1 bg-gradient-to-r from-red-600 to-violet-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-            <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none">
-              <ul className="text-gray-700 list-disc pl-5 space-y-2">
+            <div className="relative px-7 py-6 bg-black ring-1 ring-gray-900/5 rounded-lg leading-none">
+              <ul className="text-white-700 list-disc pl-5 space-y-2">
                 <li>Hurricane Milton caused significant damage and deaths across Florida.</li>
                 <li>Tampa Bay was severely affected, with damage to the local stadium raising concerns for the Rays' upcoming season.</li>
                 <li>A boat captain survived by clinging to a cooler in the Gulf of Mexico.</li>
@@ -96,27 +104,51 @@ Please stay safe and follow local guidance." />
         <div className="flex flex-col md:flex-row gap-8 mb-8">
           {/* Article Carousel */}
           <section className="md:w-1/2">
-            <h2 className="text-2xl font-bold mb-4">Latest Updates</h2>
-            <ArticleCarousel articles={[
-              { title: "Florida Lieutenant Dan, Joseph Malinowski daughter lashes out against influencers after Hurricane Milton", url: "https://nypost.com/2024/10/12/us-news/florida-lieutenant-dan-joseph-malinowski-daughter-lashes-out-against-influencers-after-hurricane-milton/", date: "October 12, 2024, 10:53 AM", preview: "" },
-              { title: "Lightning beat Hurricanes after extended stay due to Hurricane Milton", url: "https://apnews.com/article/nhl-tampa-bay-lightning-hurricane-milton-dbba41c2e63a4d4a11a9488ce97d7624", date: "October 12, 2024, 07:56 AM", preview: "" },
-              { title: "Can Tampa Bay Rays replace shredded stadium roof in time for next season?", url: "https://www.nbcnews.com/news/us-news/can-tampa-bay-rays-replace-shredded-stadium-roof-time-season-rcna175029", date: "October 11, 2024, 08:48 PM", preview: "" },
-              { title: "Peso Pluma Cancels Florida Concerts, Donates to Hurricane Relief Funds", url: "https://www.billboard.com/music/music-news/peso-pluma-cancels-tampa-miami-concerts-hurricane-milton-florida-1235798897/", date: "October 11, 2024, 08:19 PM", preview: "" },
-              { title: "Peso Pluma Cancels Florida Concerts, Donates to Hurricane Relief Funds", url: "https://www.billboard.com/music/latin/peso-pluma-cancels-tampa-miami-concerts-hurricane-milton-florida-1235798897/", date: "October 11, 2024, 08:19 PM", preview: "" },
-              { title: "Milton death toll rises to 17 as rescuers navigate rising Tampa Bay floodwaters", url: "https://www.upi.com/Top_News/2024/10/11/Milton-death-toll-rises-16-rescuers-navigate-rising-Tampa-Bay-floodwaters/8471728666255/", date: "October 11, 2024, 07:00 PM", preview: "" },
-              { title: "Hurricane Milton damage photos in Florida, drone images of Tampa, Sarasota, Fort Myers, Vero Beach", url: "https://news.yahoo.com/news/hurricane-milton-damage-photos-florida-155507590.html", date: "October 11, 2024, 05:36 PM", preview: "" },
-              { title: "Residents repair, clean up after Hurricane Milton", url: "https://www.nydailynews.com/2024/10/11/hurricane-milton-cleanup-recovery/", date: "October 11, 2024, 03:05 PM", preview: "" },
-              { title: "Boat captain rescued clinging to cooler in Gulf of Mexico after storm Milton", url: "https://www.rawstory.com/boat-captain-rescued-clinging-to-cooler-in-gulf-of-mexico-after-storm-milton/", date: "October 11, 2024, 02:20 PM", preview: "" },
-              { title: "Residents slog through flooded streets, pick up debris after Hurricane Milton tore through Florida", url: "https://cdapress.com/news/2024/oct/11/residents-slog-through-flooded-streets-pick-up-debris-after-hurricane-milton-tore-through-florida/", date: "October 11, 2024, 04:00 AM", preview: "" },
-            ]} />
+            <h2 className="text-2xl font-bold mb-4 flex items-center">
+              Latest Updates
+              <span className="ml-2 inline-flex items-center">
+                <span className="relative flex h-3 w-3">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+                </span>
+                <span className="ml-1 text-red-500 text-sm">LIVE</span>
+              </span>
+            </h2>
+            <div className="grid grid-cols-1 gap-4">
+              {[
+                { title: "Florida Lieutenant Dan, Joseph Malinowski daughter lashes out against influencers after Hurricane Milton", url: "https://nypost.com/2024/10/12/us-news/florida-lieutenant-dan-joseph-malinowski-daughter-lashes-out-against-influencers-after-hurricane-milton/", date: "October 12, 2024, 10:53 AM", preview: "" },
+                { title: "Lightning beat Hurricanes after extended stay due to Hurricane Milton", url: "https://apnews.com/article/nhl-tampa-bay-lightning-hurricane-milton-dbba41c2e63a4d4a11a9488ce97d7624", date: "October 12, 2024, 07:56 AM", preview: "" },
+                { title: "Can Tampa Bay Rays replace shredded stadium roof in time for next season?", url: "https://www.nbcnews.com/news/us-news/can-tampa-bay-rays-replace-shredded-stadium-roof-time-season-rcna175029", date: "October 11, 2024, 08:48 PM", preview: "" },
+                { title: "Peso Pluma Cancels Florida Concerts, Donates to Hurricane Relief Funds", url: "https://www.billboard.com/music/music-news/peso-pluma-cancels-tampa-miami-concerts-hurricane-milton-florida-1235798897/", date: "October 11, 2024, 08:19 PM", preview: "" },
+                { title: "Peso Pluma Cancels Florida Concerts, Donates to Hurricane Relief Funds", url: "https://www.billboard.com/music/latin/peso-pluma-cancels-tampa-miami-concerts-hurricane-milton-florida-1235798897/", date: "October 11, 2024, 08:19 PM", preview: "" },
+                { title: "Milton death toll rises to 17 as rescuers navigate rising Tampa Bay floodwaters", url: "https://www.upi.com/Top_News/2024/10/11/Milton-death-toll-rises-16-rescuers-navigate-rising-Tampa-Bay-floodwaters/8471728666255/", date: "October 11, 2024, 07:00 PM", preview: "" },
+                { title: "Hurricane Milton damage photos in Florida, drone images of Tampa, Sarasota, Fort Myers, Vero Beach", url: "https://news.yahoo.com/news/hurricane-milton-damage-photos-florida-155507590.html", date: "October 11, 2024, 05:36 PM", preview: "" },
+                { title: "Residents repair, clean up after Hurricane Milton", url: "https://www.nydailynews.com/2024/10/11/hurricane-milton-cleanup-recovery/", date: "October 11, 2024, 03:05 PM", preview: "" },
+                { title: "Boat captain rescued clinging to cooler in Gulf of Mexico after storm Milton", url: "https://www.rawstory.com/boat-captain-rescued-clinging-to-cooler-in-gulf-of-mexico-after-storm-milton/", date: "October 11, 2024, 02:20 PM", preview: "" },
+                { title: "Residents slog through flooded streets, pick up debris after Hurricane Milton tore through Florida", url: "https://cdapress.com/news/2024/oct/11/residents-slog-through-flooded-streets-pick-up-debris-after-hurricane-milton-tore-through-florida/", date: "October 11, 2024, 04:00 AM", preview: "" },
+              ].map((article, index) => (
+                <div key={index} className="bg-black shadow-md rounded-lg p-4 transition-shadow duration-300 hover:shadow-lg">
+                  <h3 className="font-bold mb-2">{article.title}</h3>
+                  <p className="text-xs text-gray-500 mb-2">{article.date}</p>
+                  <a 
+                    href={article.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-blue-500 hover:underline"
+                  >
+                    Read more
+                  </a>
+                </div>
+              ))}
+            </div>
           </section>
 
           {/* Latest Images Section */}
           <section className="md:w-1/2">
             <h2 className="text-2xl font-bold mb-4">Latest Images</h2>
-            <div className="flex overflow-x-auto space-x-4 pb-4">
-              {["/1.png", "/2.png", "/3.png"].map((src, index) => (
-                <div key={index} className="flex-none w-64 aspect-w-16 aspect-h-9">
+            <div className="grid grid-cols-2 gap-4">
+              {["/1.png", "/2.png", "/3.png", "/4.jpg", "/5.jpg", "/6.jpg", "/7.jpg", "/8.jpg", "/9.jpeg", "/10.jpg", "/11.jpg", "/12.jpg", "/13.jpg"].map((src, index) => (
+                <div key={index} className="aspect-w-16 aspect-h-9">
                   <img
                     src={src}
                     alt={`Latest image ${index + 1}`}
