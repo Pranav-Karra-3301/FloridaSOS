@@ -39,14 +39,80 @@ export default function Home() {
   const getSelectedCount = () => Object.values(selectedOptions).filter(Boolean).length;
 
   return (
-    <div className="min-h-screen p-8 font-sans">
+    <div className="min-h-screen p-8 font-sans bg-black text-white">
       <header className="text-center mb-8">
-        <h1 className="text-4xl font-bold">Milton SOS</h1>
+        <h1 className="text-4xl font-bold mb-6">🌪️ Hurricane Warning Dashboard</h1>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
+            <h2 className="text-2xl font-bold mb-4">Hurricane Category</h2>
+            <div className="relative w-full h-32 mx-auto">
+              <svg className="w-full h-full" viewBox="0 0 200 60">
+                <rect x="0" y="25" width="200" height="10" fill="#4B5563" />
+                <rect x="0" y="25" width="160" height="10" fill="#8B5CF6" />
+                {/* Category markers */}
+                <text x="0" y="55" textAnchor="start" fill="#9CA3AF" fontSize="10">1</text>
+                <text x="50" y="55" textAnchor="middle" fill="#9CA3AF" fontSize="10">2</text>
+                <text x="100" y="55" textAnchor="middle" fill="#9CA3AF" fontSize="10">3</text>
+                <text x="150" y="55" textAnchor="middle" fill="#9CA3AF" fontSize="10">4</text>
+                <text x="200" y="55" textAnchor="end" fill="#9CA3AF" fontSize="10">5</text>
+                <text x="160" y="20" textAnchor="middle" fill="white" fontSize="16" fontWeight="bold">4</text>
+              </svg>
+            </div>
+          </div>
+          <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
+            <h2 className="text-2xl font-bold mb-4">Sustained Winds</h2>
+            <div className="relative w-full h-32 mx-auto">
+              <svg className="w-full h-full" viewBox="0 0 200 60">
+                <rect x="0" y="25" width="200" height="10" fill="#4B5563" />
+                <rect x="0" y="25" width="150" height="10" fill="#8B5CF6" />
+                {/* Wind speed markers */}
+                <text x="0" y="55" textAnchor="start" fill="#9CA3AF" fontSize="6">0 mph</text>
+                <text x="50" y="55" textAnchor="middle" fill="#9CA3AF" fontSize="6">50 mph</text>
+                <text x="100" y="55" textAnchor="middle" fill="#9CA3AF" fontSize="6">100 mph</text>
+                <text x="150" y="55" textAnchor="middle" fill="#9CA3AF" fontSize="6">150 mph</text>
+                <text x="200" y="55" textAnchor="end" fill="#9CA3AF" fontSize="6">200 mph</text>
+                <text x="150" y="20" textAnchor="middle" fill="white" fontSize="16" fontWeight="bold">150 mph</text>
+              </svg>
+            </div>
+          </div>
+          <div className="bg-gray-900 p-6 rounded-lg shadow-lg flex flex-col justify-center">
+            <h2 className="text-2xl font-bold mb-4">States Affected</h2>
+            <div className="flex items-center justify-center">
+              <span className="text-5xl font-bold">FLORIDA</span>
+            </div>
+          </div>
+        </div>
+        <p className="text-lg mt-6">Displaying Information for: Hurricane Milton</p>
+        <p className="text-sm text-yellow-300">Last Updated: October 12, 2024 11:00 AM EDT</p>
       </header>
 
       <main>
+        <div className="overflow-hidden mb-8">
+          <div className="flex animate-scroll whitespace-nowrap">
+            {[...Array(30)].map((_, index) => (
+              <Image
+                key={index}
+                src="/warning.png"
+                alt="Warning"
+                width={50}
+                height={50}
+                className="mr-4 inline-block"
+              />
+            ))}
+            {[...Array(30)].map((_, index) => (
+              <Image
+                key={index + 20}
+                src="/warning.png"
+                alt="Warning"
+                width={50}
+                height={50}
+                className="mr-4 inline-block"
+              />
+            ))}
+          </div>
+        </div>
         {/* Emergency Information Box */}
-        <div className="bg-red-500 border-2 border-red-700 p-4 mb-6 rounded-lg text-center text-white">
+        <div className="bg-[#3f0d0c] border border-red-500 p-4 mb-6 rounded-lg text-center text-[#f5c2c7]">
           <h2 className="text-xl font-bold mb-2">⚠️ Emergency Information</h2>
           <p className="mb-3">{emergencyInfo.summary}</p>
           <h3 className="font-bold mb-2">Emergency Radio: {emergencyInfo.radioFrequencies.join(', ')}</h3>
@@ -56,7 +122,7 @@ export default function Home() {
                 key={index}
                 href={`/${plan.filename}`}
                 download
-                className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm hover:bg-blue-600"
+                className="bg-[#842029] text-[#f5c2c7] px-3 py-1 rounded-full text-sm hover:bg-[#6d1a22]"
               >
                 {plan.county} Evacuation Plan
               </a>
@@ -65,14 +131,23 @@ export default function Home() {
           <a 
             href={emergencyInfo.pdfUrl} 
             download 
-            className="bg-white text-red-500 px-3 py-1 rounded-full text-sm hover:bg-red-100"
+            className="bg-[#f5c2c7] text-[#3f0d0c] px-3 py-1 rounded-full text-sm hover:bg-[#e2b4b4]"
           >
             Download Emergency PDF
           </a>
         </div>
         {/* Alerts Section */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Alerts</h2>
+          <h2 className="text-2xl font-bold mb-4 flex items-center">
+            Alerts
+            <span className="ml-2 inline-flex items-center">
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+              </span>
+              <span className="ml-1 text-red-500 text-sm">LIVE</span>
+            </span>
+          </h2>
         </section>
         <Alert variant="destructive" message="Alert: HURRICANE MILTON Ongoing
 HURRICANE MILTON started on October 05, 2024 and is currently ongoing.
@@ -83,21 +158,8 @@ Please stay safe and follow local guidance." />
             Alachua (County), Baker (County), Bradford (County), Brevard (County), Broward (County), Charlotte (County), Citrus (County), Clay (County), Collier (County), Columbia (County), DeSoto (County), Dixie (County), Duval (County), Flagler (County), Gilchrist (County), Glades (County), Hamilton (County), Hardee (County), Hendry (County), Hernando (County), Highlands (County), Hillsborough (County), Indian River (County), Lafayette (County), Lake (County), Lee (County), Levy (County), Madison (County), Manatee (County), Marion (County), Martin (County), Miami-Dade (County), Monroe (County), Nassau (County), Okeechobee (County), Orange (County), Osceola (County), Palm Beach (County), Pasco (County), Pinellas (County), Polk (County), Putnam (County), St. Johns (County), St. Lucie (County), Sarasota (County), Seminole (County), Sumter (County), Suwannee (County), Taylor (County), Union (County), Volusia (County), Big Cypress Indian Reservation, Brighton Indian Reservation, Fort Pierce Indian Reservation, Hollywood Indian Reservation, Immokalee Indian Reservation, Tampa Reservation, Seminole Tribe of Florida, Miccosukee Tribe of Indians of Florida
           </p>
         </details>
-
-        {/* Hurricane Tracking Section */}
-        <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Hurricane Tracking</h2>
-          <div className="w-[70%] mx-auto bg-gray-200 rounded-lg overflow-hidden">
-            <img
-              src="/path.gif"
-              alt="Hurricane Path"
-              className="w-full h-auto"
-            />
-          </div>
-        </section>
-        
-        {/* Article Summary */}
-        <section className="mb-8">
+{/* Article Summary */}
+<section className="mb-8">
           <h2 className="text-2xl font-bold mb-4 flex items-center">
             A.I News Summary
             <span className="ml-2 inline-flex items-center">
@@ -108,8 +170,8 @@ Please stay safe and follow local guidance." />
               <span className="ml-1 text-red-500 text-sm">LIVE</span>
             </span>
           </h2>
-          <div className="relative group cursor-pointer">
-            <div className="absolute -inset-1 bg-gradient-to-r from-red-600 to-violet-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+          <div className="relative cursor-pointer">
+            <div className="absolute -inset-1 bg-gradient-to-r from-red-600 to-violet-600 rounded-lg blur opacity-100 animate-pulse"></div>
             <div className="relative px-7 py-6 bg-black ring-1 ring-gray-900/5 rounded-lg leading-none">
               <ul className="text-white-700 list-disc pl-5 space-y-2">
                 <li>Hurricane Milton caused significant damage and deaths across Florida.</li>
@@ -124,6 +186,38 @@ Please stay safe and follow local guidance." />
             </div>
           </div>
         </section>
+        
+        {/* Hurricane Tracking Section */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-bold mb-4">Hurricane Tracking</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="bg-black rounded-lg overflow-hidden">
+              <h3 className="text-lg font-semibold mb-2 text-center text-white">Path</h3>
+              <img
+                src="/path.gif"
+                alt="Hurricane Path"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="bg-black rounded-lg overflow-hidden">
+              <h3 className="text-lg font-semibold mb-2 text-center text-white">Temperature Map</h3>
+              <img
+                src="/temp.gif"
+                alt="Temperature Map"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="bg-black rounded-lg overflow-hidden">
+              <h3 className="text-lg font-semibold mb-2 text-center text-white">Satellite</h3>
+              <img
+                src="/sat.gif"
+                alt="Satellite View"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </section>
+        
 
         {/* Article Carousel and Latest Images */}
         <div className="flex flex-col md:flex-row gap-8 mb-8">
@@ -202,19 +296,26 @@ Please stay safe and follow local guidance." />
             <label htmlFor="county-select" className="block text-sm font-bold text-white uppercase mb-2">
               SELECT COUNTY:
             </label>
-            <select
-              id="county-select"
-              value={selectedCounty}
-              onChange={(e) => setSelectedCounty(e.target.value)}
-              className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md bg-black text-white"
-            >
-              <option value="">Select a county</option>
-              {counties.map((county) => (
-                <option key={county} value={county}>
-                  {county}
-                </option>
-              ))}
-            </select>
+            <div className="relative">
+              <select
+                id="county-select"
+                value={selectedCounty}
+                onChange={(e) => setSelectedCounty(e.target.value)}
+                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md bg-black text-white shadow-[0_0_10px_rgba(59,130,246,0.5)] border-2 border-blue-500 transition-all duration-300 ease-in-out hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]"
+              >
+                <option value="">Select a county</option>
+                {counties.map((county) => (
+                  <option key={county} value={county}>
+                    {county}
+                  </option>
+                ))}
+              </select>
+              <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+                <svg className="h-4 w-4 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </div>
+            </div>
           </div>
           {selectedCounty && (
             <div className={`grid grid-cols-1 ${getSelectedCount() > 1 ? `md:grid-cols-2` : ''} ${getSelectedCount() > 2 ? `lg:grid-cols-3` : ''} ${getSelectedCount() > 3 ? `xl:grid-cols-4` : ''} gap-4`}>
@@ -325,20 +426,85 @@ Please stay safe and follow local guidance." />
           )}
         </section>
 
-        {/* Additional Sections */}
+        {/* Resources Section */}
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">Resources</h2>
-          {/* Add resource content here */}
-        </section>
+          <div className="bg-black p-6 rounded-lg shadow-lg mb-6">
+            <h3 className="text-xl font-bold mb-4">How to Signal SOS</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="bg-gray-900 p-4 rounded-lg">
+                <h4 className="font-bold mb-2">Morse Code</h4>
+                <p className="text-2xl">• • • — — — • • •</p>
+                <p className="text-sm mt-2">(3 short, 3 long, 3 short)</p>
+              </div>
+              <div className="bg-gray-900 p-4 rounded-lg">
+                <h4 className="font-bold mb-2">Hand Signals</h4>
+                <Image
+                  src="/handSOS.png"
+                  alt="Hand signals for SOS"
+                  width={200}
+                  height={50}
+                  className="mx-auto"
+                />
+              </div>
+              <div className="bg-gray-900 p-4 rounded-lg">
+                <h4 className="font-bold mb-2">Flashlight</h4>
+                <p className="text-2xl">🔆 🔆 🔆 ⚪— ⚪— ⚪— 🔆 🔆 🔆</p>
+                <p className="text-sm mt-2">(3 quick, 3 long, 3 quick)</p>
+              </div>
+            </div>
+          </div>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
-          {/* Add contact information here */}
+          {/* Emergency Checklist Section */}
+          <div className="bg-black p-6 rounded-lg shadow-lg">
+            <h3 className="text-xl font-bold mb-4">Emergency Preparedness Checklist</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+              <div className="bg-gray-900 p-4 rounded-lg">
+                <h4 className="font-bold mb-2">Essential Documents</h4>
+                <ul className="list-disc list-inside">
+                  <li>Driver's license</li>
+                  <li>Passport</li>
+                  <li>Birth certificate</li>
+                  <li>Social Security card</li>
+                  <li>Insurance policies</li>
+                </ul>
+              </div>
+              <div className="bg-gray-900 p-4 rounded-lg">
+                <h4 className="font-bold mb-2">Emergency Supplies</h4>
+                <ul className="list-disc list-inside">
+                  <li>First aid kit</li>
+                  <li>Flashlight and batteries</li>
+                  <li>Battery-powered radio</li>
+                  <li>Non-perishable food</li>
+                  <li>Bottled water</li>
+                </ul>
+              </div>
+              <div className="bg-gray-900 p-4 rounded-lg">
+                <h4 className="font-bold mb-2">Personal Items</h4>
+                <ul className="list-disc list-inside">
+                  <li>Medications</li>
+                  <li>Eyeglasses or contacts</li>
+                  <li>Cash and credit cards</li>
+                  <li>Change of clothes</li>
+                  <li>Personal hygiene items</li>
+                </ul>
+              </div>
+            </div>
+            <div className="text-center">
+              <a 
+                href="/checklist.pdf" 
+                download 
+                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded inline-block"
+              >
+                Download Full Checklist PDF
+              </a>
+            </div>
+          </div>
         </section>
       </main>
 
       <footer className="text-center text-sm text-gray-500 mt-8">
-        © 2023 Milton SOS. All rights reserved.
+        Hack PSU Fall 2024 Submission | <a href="https://github.com/Pranav-Karra-3301/FloridaSOS" className="text-blue-500 hover:underline">GitHub</a>
       </footer>
     </div>
   );
