@@ -1,0 +1,26 @@
+{
+    "County": "Hillsborough",
+    "Total Customers Tracked": 709293,
+    "Customers Out": 289407,
+    "Outage Percentage": "40.80%",
+    "Providers": [
+        {
+            "Provider": "Duke Energy",
+            "Customers Tracked": "13",
+            "Customers Out": "1",
+            "Last Updated": "10/13/2024 7:34:39 AM GMT"
+        },
+        {
+            "Provider": "Peace River Electric Coop",
+            "Customers Tracked": "1,229",
+            "Customers Out": "28",
+            "Last Updated": "10/13/2024 7:35:37 AM GMT"
+        },
+        {
+            "Provider": "Tampa Electric",
+            "Customers Tracked": "708,051",
+            "Customers Out": "289,378",
+            "Last Updated": "10/13/2024 7:35:51 AM GMT"
+        }
+    ]
+}
