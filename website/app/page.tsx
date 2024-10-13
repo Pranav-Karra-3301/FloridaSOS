@@ -13,7 +13,21 @@ import powerOutagesData from '../Data/power_outages.json';
 export default function Home() {
   const emergencyInfo = {
     summary: "This is a summary of emergency information. Please download the PDF or Print this webpage for complete details.",
-    radioFrequencies: ["97.5 FM", "101.3 FM", "105.7 FM"],
+    radioFrequencies: [
+      "102.5 MHz", // 102.5 The Bone
+      "106.9 MHz", // 106.9 Playa
+      "98.7 MHz",  // 98.7 The Shark
+      "105.5 MHz", // 105.5 The Dove
+      "97.1 MHz",  // 97X
+      "101.5 MHz", // 101.5 The Vibe
+    ],
+    policeFrequencies: [
+      "453.700 MHz", // Tampa Police District 1 (Sector A)
+      "453.550 MHz", // Tampa Police District 1 (Sector B)
+      "453.800 MHz", // Tampa Police District 3 (Sector F)
+      "453.850 MHz", // Tampa Police Tactical Operations
+      "453.875 MHz", // Tampa Police District 2 (New Tampa)
+    ],
     pdfUrl: "/emergency.pdf", // Replace with actual PDF path
   };
 
@@ -85,7 +99,7 @@ export default function Home() {
           </div>
         </div>
         <p className="text-lg mt-6">Displaying Information for: Hurricane Milton</p>
-        <p className="text-sm text-yellow-300">Last Updated: October 12, 2024 11:00 AM EDT</p>
+        <p className="text-sm text-yellow-300">Last Updated: October 13, 2024 1:39 PM EDT</p>
       </header>
 
       <main>
@@ -130,6 +144,7 @@ export default function Home() {
               </a>
             ))}
           </div>
+          <p className="mb-3 text-sm">In case you lose internet access, select your county below and print this page as a PDF for offline use.</p>
           <a 
             href={emergencyInfo.pdfUrl} 
             download 
@@ -194,7 +209,7 @@ Please stay safe and follow local guidance." />
           <h2 className="text-2xl font-bold mb-4">Hurricane Tracking</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-black rounded-lg overflow-hidden">
-              <h3 className="text-lg font-semibold mb-2 text-center text-white">Path</h3>
+              <h3 className="text-lg font-semibold mb-2 text-center text-white">Path Map</h3>
               <Image
                 src="/path.gif"
                 alt="Hurricane Path"
@@ -214,7 +229,7 @@ Please stay safe and follow local guidance." />
               />
             </div>
             <div className="bg-black rounded-lg overflow-hidden">
-              <h3 className="text-lg font-semibold mb-2 text-center text-white">Satellite</h3>
+              <h3 className="text-lg font-semibold mb-2 text-center text-white">Satellite View</h3>
               <Image
                 src="/sat.gif"
                 alt="Satellite View"
@@ -243,13 +258,13 @@ Please stay safe and follow local guidance." />
             </h2>
             <div className="grid grid-cols-1 gap-4 h-[500px] overflow-y-auto">
               {[
-                { title: "Florida Lieutenant Dan, Joseph Malinowski daughter lashes out against influencers after Hurricane Milton", url: "https://nypost.com/2024/10/12/us-news/florida-lieutenant-dan-joseph-malinowski-daughter-lashes-out-against-influencers-after-hurricane-milton/", date: "October 12, 2024, 10:53 AM", preview: "" },
-                { title: "Lightning beat Hurricanes after extended stay due to Hurricane Milton", url: "https://apnews.com/article/nhl-tampa-bay-lightning-hurricane-milton-dbba41c2e63a4d4a11a9488ce97d7624", date: "October 12, 2024, 07:56 AM", preview: "" },
-                { title: "Can Tampa Bay Rays replace shredded stadium roof in time for next season?", url: "https://www.nbcnews.com/news/us-news/can-tampa-bay-rays-replace-shredded-stadium-roof-time-season-rcna175029", date: "October 11, 2024, 08:48 PM", preview: "" },
-                { title: "Peso Pluma Cancels Florida Concerts, Donates to Hurricane Relief Funds", url: "https://www.billboard.com/music/music-news/peso-pluma-cancels-tampa-miami-concerts-hurricane-milton-florida-1235798897/", date: "October 11, 2024, 08:19 PM", preview: "" },
-                { title: "Peso Pluma Cancels Florida Concerts, Donates to Hurricane Relief Funds", url: "https://www.billboard.com/music/latin/peso-pluma-cancels-tampa-miami-concerts-hurricane-milton-florida-1235798897/", date: "October 11, 2024, 08:19 PM", preview: "" },
-                { title: "Milton death toll rises to 17 as rescuers navigate rising Tampa Bay floodwaters", url: "https://www.upi.com/Top_News/2024/10/11/Milton-death-toll-rises-16-rescuers-navigate-rising-Tampa-Bay-floodwaters/8471728666255/", date: "October 11, 2024, 07:00 PM", preview: "" },
-                { title: "Hurricane Milton damage photos in Florida, drone images of Tampa, Sarasota, Fort Myers, Vero Beach", url: "https://news.yahoo.com/news/hurricane-milton-damage-photos-florida-155507590.html", date: "October 11, 2024, 05:36 PM", preview: "" },
+                { title: "Florida Lieutenant Dan, Joseph Malinowski daughter lashes out against influencers after Hurricane Milton", url: "https://nypost.com/2024/10/12/us-news/florida-lieutenant-dan-joseph-malinowski-daughter-lashes-out-against-influencers-after-hurricane-milton/", date: "October 13, 2024, 12:53 PM", preview: "" },
+                { title: "Lightning beat Hurricanes after extended stay due to Hurricane Milton", url: "https://apnews.com/article/nhl-tampa-bay-lightning-hurricane-milton-dbba41c2e63a4d4a11a9488ce97d7624", date: "October 13, 2024, 10:26 AM", preview: "" },
+                { title: "Can Tampa Bay Rays replace shredded stadium roof in time for next season?", url: "https://www.nbcnews.com/news/us-news/can-tampa-bay-rays-replace-shredded-stadium-roof-time-season-rcna175029", date: "October 13, 2024, 08:15 AM", preview: "" },
+                { title: "Peso Pluma Cancels Florida Concerts, Donates to Hurricane Relief Funds", url: "https://www.billboard.com/music/music-news/peso-pluma-cancels-tampa-miami-concerts-hurricane-milton-florida-1235798897/", date: "October 13, 2024, 06:42 AM", preview: "" },
+                { title: "Peso Pluma Cancels Florida Concerts, Donates to Hurricane Relief Funds", url: "https://www.billboard.com/music/latin/peso-pluma-cancels-tampa-miami-concerts-hurricane-milton-florida-1235798897/", date: "October 12, 2024, 11:37 PM", preview: "" },
+                { title: "Milton death toll rises to 17 as rescuers navigate rising Tampa Bay floodwaters", url: "https://www.upi.com/Top_News/2024/10/11/Milton-death-toll-rises-16-rescuers-navigate-rising-Tampa-Bay-floodwaters/8471728666255/", date: "October 12, 2024, 09:18 PM", preview: "" },
+                { title: "Hurricane Milton damage photos in Florida, drone images of Tampa, Sarasota, Fort Myers, Vero Beach", url: "https://news.yahoo.com/news/hurricane-milton-damage-photos-florida-155507590.html", date: "October 12, 2024, 07:45 PM", preview: "" },
               ].map((article, index) => (
                 <div key={index} className="bg-black shadow-md rounded-lg p-4 transition-shadow duration-300 hover:shadow-lg">
                   <h3 className="font-bold mb-2">{article.title}</h3>
@@ -317,7 +332,7 @@ Please stay safe and follow local guidance." />
 
 {/* Available Services Section */}
 <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Available Services Nearby</h2>
+          <h2 className="text-2xl font-bold mb-4">🔍 Available Services Nearby</h2>
           <div className="mb-4 flex flex-wrap gap-4">
             {Object.entries(selectedOptions).map(([key, value]) => (
               <label key={key} className="inline-flex items-center">
@@ -518,48 +533,51 @@ Please stay safe and follow local guidance." />
           </div>
 
           {/* Emergency Checklist Section */}
-          <div className="bg-black p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-bold mb-4">Emergency Preparedness Checklist</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-              <div className="bg-gray-900 p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Essential Documents</h4>
-                <ul className="list-disc list-inside">
-                  <li>Driver's license</li>
-                  <li>Passport</li>
-                  <li>Birth certificate</li>
-                  <li>Social Security card</li>
-                  <li>Insurance policies</li>
-                </ul>
+          <div className="relative cursor-pointer">
+            <div className="absolute -inset-1 bg-gradient-to-r from-red-600 to-violet-600 rounded-lg blur opacity-100 animate-pulse"></div>
+            <div className="relative px-7 py-6 bg-black ring-1 ring-gray-900/5 rounded-lg leading-none">
+              <h3 className="text-xl font-bold mb-4">Emergency Preparedness Checklist</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                <div className="bg-gray-900 p-4 rounded-lg">
+                  <h4 className="font-bold mb-2">Essential Documents</h4>
+                  <ul className="list-disc list-inside">
+                    <li>Driver's license</li>
+                    <li>Passport</li>
+                    <li>Birth certificate</li>
+                    <li>Social Security card</li>
+                    <li>Insurance policies</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-900 p-4 rounded-lg">
+                  <h4 className="font-bold mb-2">Emergency Supplies</h4>
+                  <ul className="list-disc list-inside">
+                    <li>First aid kit</li>
+                    <li>Flashlight and batteries</li>
+                    <li>Battery-powered radio</li>
+                    <li>Non-perishable food</li>
+                    <li>Bottled water</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-900 p-4 rounded-lg">
+                  <h4 className="font-bold mb-2">Personal Items</h4>
+                  <ul className="list-disc list-inside">
+                    <li>Medications</li>
+                    <li>Eyeglasses or contacts</li>
+                    <li>Cash and credit cards</li>
+                    <li>Change of clothes</li>
+                    <li>Personal hygiene items</li>
+                  </ul>
+                </div>
               </div>
-              <div className="bg-gray-900 p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Emergency Supplies</h4>
-                <ul className="list-disc list-inside">
-                  <li>First aid kit</li>
-                  <li>Flashlight and batteries</li>
-                  <li>Battery-powered radio</li>
-                  <li>Non-perishable food</li>
-                  <li>Bottled water</li>
-                </ul>
+              <div className="text-center">
+                <a 
+                  href="/checklist.pdf" 
+                  download 
+                  className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded inline-block"
+                >
+                  Download Full Checklist PDF
+                </a>
               </div>
-              <div className="bg-gray-900 p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Personal Items</h4>
-                <ul className="list-disc list-inside">
-                  <li>Medications</li>
-                  <li>Eyeglasses or contacts</li>
-                  <li>Cash and credit cards</li>
-                  <li>Change of clothes</li>
-                  <li>Personal hygiene items</li>
-                </ul>
-              </div>
-            </div>
-            <div className="text-center">
-              <a 
-                href="/checklist.pdf" 
-                download 
-                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded inline-block"
-              >
-                Download Full Checklist PDF
-              </a>
             </div>
           </div>
         </section>
