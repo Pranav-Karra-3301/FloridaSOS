@@ -52,8 +52,26 @@ export default function Home() {
         </div>
         <Alert variant="destructive" message="Alert: HURRICANE MILTON Ongoing
 HURRICANE MILTON started on October 05, 2024 and is currently ongoing.
-Affected areas: Alachua (County), Baker (County), Bradford (County), Brevard (County), Broward (County), Charlotte (County), Citrus (County), Clay (County), Collier (County), Columbia (County), DeSoto (County), Dixie (County), Duval (County), Flagler (County), Gilchrist (County), Glades (County), Hamilton (County), Hardee (County), Hendry (County), Hernando (County), Highlands (County), Hillsborough (County), Indian River (County), Lafayette (County), Lake (County), Lee (County), Levy (County), Madison (County), Manatee (County), Marion (County), Martin (County), Miami-Dade (County), Monroe (County), Nassau (County), Okeechobee (County), Orange (County), Osceola (County), Palm Beach (County), Pasco (County), Pinellas (County), Polk (County), Putnam (County), St. Johns (County), St. Lucie (County), Sarasota (County), Seminole (County), Sumter (County), Suwannee (County), Taylor (County), Union (County), Volusia (County), Big Cypress Indian Reservation, Brighton Indian Reservation, Fort Pierce Indian Reservation, Hollywood Indian Reservation, Immokalee Indian Reservation, Tampa Reservation, Seminole Tribe of Florida, Miccosukee Tribe of Indians of Florida, Brevard (County), Charlotte (County), Citrus (County), Clay (County), Collier (County), DeSoto (County), Duval (County), Flagler (County), Glades (County), Hardee (County), Hendry (County), Hernando (County), Highlands (County), Hillsborough (County), Indian River (County), Lake (County), Lee (County), Manatee (County), Marion (County), Martin (County), Okeechobee (County), Orange (County), Osceola (County), Palm Beach (County), Pasco (County), Pinellas (County), Polk (County), Putnam (County), St. Johns (County), St. Lucie (County), Sarasota (County), Seminole (County), Sumter (County), Volusia (County).
 Please stay safe and follow local guidance." />
+        <details className="mt-4">
+          <summary className="cursor-pointer text-blue-500 hover:text-blue-600">See Counties Affected</summary>
+          <p className="mt-2 text-sm">
+            Alachua (County), Baker (County), Bradford (County), Brevard (County), Broward (County), Charlotte (County), Citrus (County), Clay (County), Collier (County), Columbia (County), DeSoto (County), Dixie (County), Duval (County), Flagler (County), Gilchrist (County), Glades (County), Hamilton (County), Hardee (County), Hendry (County), Hernando (County), Highlands (County), Hillsborough (County), Indian River (County), Lafayette (County), Lake (County), Lee (County), Levy (County), Madison (County), Manatee (County), Marion (County), Martin (County), Miami-Dade (County), Monroe (County), Nassau (County), Okeechobee (County), Orange (County), Osceola (County), Palm Beach (County), Pasco (County), Pinellas (County), Polk (County), Putnam (County), St. Johns (County), St. Lucie (County), Sarasota (County), Seminole (County), Sumter (County), Suwannee (County), Taylor (County), Union (County), Volusia (County), Big Cypress Indian Reservation, Brighton Indian Reservation, Fort Pierce Indian Reservation, Hollywood Indian Reservation, Immokalee Indian Reservation, Tampa Reservation, Seminole Tribe of Florida, Miccosukee Tribe of Indians of Florida
+          </p>
+        </details>
+
+        {/* Hurricane Tracking Section */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-bold mb-4">Hurricane Tracking</h2>
+          <div className="w-[70%] mx-auto bg-gray-200 rounded-lg overflow-hidden">
+            <img
+              src="/path.gif"
+              alt="Hurricane Path"
+              className="w-full h-auto"
+            />
+          </div>
+        </section>
+        
         {/* Article Summary */}
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">News Summary</h2>
@@ -61,14 +79,14 @@ Please stay safe and follow local guidance." />
             <div className="absolute -inset-1 bg-gradient-to-r from-red-600 to-violet-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
             <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none">
               <ul className="text-gray-700 list-disc pl-5 space-y-2">
-                <li>A 14-year-old boy was rescued from Tampa floodwaters after Hurricane Milton by a vigilant sheriff deputy.</li>
-                <li>Multiple airports in Florida were closed due to Hurricane Milton.</li>
-                <li>Chick-fil-A plans to replace a demolished Exxon in Hillsborough, New Jersey.</li>
-                <li>A street takeover involving 250 cars drew a large audience in Montgomery.</li>
-                <li>A police officer was arrested for video voyeurism in a shocking case.</li>
-                <li>A homeless, repeat sex offender in Concord was apprehended again.</li>
-                <li>A Florida prosecutor was suspended, impacting Governor DeSantis's reelection campaign.</li>
-                <li>Ex-Lions CB Cameron Sutton retired from professional football.</li>
+                <li>Hurricane Milton caused significant damage and deaths across Florida.</li>
+                <li>Tampa Bay was severely affected, with damage to the local stadium raising concerns for the Rays' upcoming season.</li>
+                <li>A boat captain survived by clinging to a cooler in the Gulf of Mexico.</li>
+                <li>Peso Pluma cancelled concerts in Tampa and Miami due to the hurricane.</li>
+                <li>Florida Lieutenant Dan Joseph Malinowski's daughter criticized influencers for exploiting the tragedy.</li>
+                <li>The death toll has risen to 16 as rescue efforts continue.</li>
+                <li>Residents are navigating flooded streets for cleanup as recovery efforts begin.</li>
+                <li>The road to recovery is expected to be long and arduous.</li>
               </ul>
             </div>
           </div>
@@ -151,17 +169,7 @@ Please stay safe and follow local guidance." />
           </div>
         </section>
 
-        {/* Hurricane Tracking Section */}
-        <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Hurricane Tracking</h2>
-          <div className="w-[70%] mx-auto bg-gray-200 rounded-lg overflow-hidden">
-            <img
-              src="/path.gif"
-              alt="Hurricane Path"
-              className="w-full h-auto"
-            />
-          </div>
-        </section>
+
 
         {/* Additional Sections */}
         <section className="mb-8">
