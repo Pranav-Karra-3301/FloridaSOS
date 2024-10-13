@@ -3,16 +3,12 @@
 import Image from "next/image";
 import ArticleCarousel from "../components/ArticleCarousel";
 import Alert from "../components/alert";
-<<<<<<< Updated upstream
 import { useState } from 'react';
 import gasStationsData from '../Data/gas_stations_hillsborough.json';
 import hotelsData from '../Data/hotels_hillsborough.json';
 import sheltersData from '../Data/shelters_with_google_maps.json';
 import foodPantriesData from '../Data/food_pantries.json';
 
-=======
-import { useEffect } from 'react';
->>>>>>> Stashed changes
 export default function Home() {
   const emergencyInfo = {
     summary: "This is a summary of emergency information. Please download the PDF or Print this webpage for complete details.",
