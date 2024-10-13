@@ -1,5 +1,5 @@
 {
-    "Apollo Beach, FL": [
+    "Apollo Beach": [
         {
             "name": "Marathon Gas",
             "address": "6190 N U.S. Hwy 41, Apollo Beach, FL 33572, United States",
@@ -16,7 +16,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Circle+K+5004+N+U.S.+Hwy+41,+Apollo+Beach,+FL+33572,+United+States"
         }
     ],
-    "Balm, FL": [
+    "Balm": [
         {
             "name": "Circle K",
             "address": "5133 FL-674, Wimauma, FL 33598, United States",
@@ -118,7 +118,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=bp+5802+FL-674,+Wimauma,+FL+33598,+United+States"
         }
     ],
-    "Bloomingdale, FL": [
+    "Bloomingdale": [
         {
             "name": "RaceTrac",
             "address": "10311 Bloomingdale Ave, Riverview, FL 33578, United States",
@@ -220,7 +220,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Shell+965+E+Brandon+Blvd,+Brandon,+FL+33511,+United+States"
         }
     ],
-    "Brandon, FL": [
+    "Brandon": [
         {
             "name": "Thorntons",
             "address": "425 E Brandon Blvd, Brandon, FL 33511, United States",
@@ -322,7 +322,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Shell+10030+E+Adamo+Dr,+Tampa,+FL+33619,+United+States"
         }
     ],
-    "Carrollwood, FL": [
+    "Carrollwood": [
         {
             "name": "Thorntons",
             "address": "4103 Gunn Hwy, Tampa, FL 33618, United States",
@@ -424,7 +424,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Circle+K+15527+N+Dale+Mabry+Hwy,+Tampa,+FL+33618,+United+States"
         }
     ],
-    "Cheval, FL": [
+    "Cheval": [
         {
             "name": "RaceTrac",
             "address": "16707 State Rd 54, Lutz, FL 33558, United States",
@@ -526,7 +526,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=7-Eleven+19123+Wingshooter+Wy,+Lutz,+FL+33558,+United+States"
         }
     ],
-    "Citrus Park, FL": [
+    "Citrus Park": [
         {
             "name": "Circle K",
             "address": "8705 Citrus Park Dr, Tampa, FL 33625, United States",
@@ -628,7 +628,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Circle+K+5202+W+Sligh+Ave,+Tampa,+FL+33634,+United+States"
         }
     ],
-    "Dover, FL": [
+    "Dover": [
         {
             "name": "Marathon",
             "address": "12901 US-92, Dover, FL 33527, United States",
@@ -730,7 +730,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=7-Eleven+12902+Newsome+Rd,+Dover,+FL+33527,+United+States"
         }
     ],
-    "East Lake-Orient Park, FL": [
+    "East Lake-Orient Park": [
         {
             "name": "RaceTrac",
             "address": "5951 US-301, Tampa, FL 33610, United States",
@@ -832,7 +832,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Shell+6820+N+56th+St,+Tampa,+FL+33610,+United+States"
         }
     ],
-    "Egypt Lake-Leto, FL": [
+    "Egypt Lake-Leto": [
         {
             "name": "RaceTrac",
             "address": "6056 W Waters Ave, Tampa, FL 33634, United States",
@@ -934,7 +934,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Shell+6211+N+Dale+Mabry+Hwy,+Tampa,+FL+33614,+United+States"
         }
     ],
-    "Fish Hawk, FL": [
+    "Fish Hawk": [
         {
             "name": "Exxon",
             "address": "16781 Fishhawk Blvd, Lithia, FL 33547, United States",
@@ -1036,7 +1036,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=RaceTrac+1722+James+L+Redman+Pkwy,+Plant+City,+FL+33563,+United+States"
         }
     ],
-    "Gibsonton, FL": [
+    "Gibsonton": [
         {
             "name": "Mobil",
             "address": "10920 US Hwy 41 S, Gibsonton, FL 33534, United States",
@@ -1138,7 +1138,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=CITGO+10143+US+Hwy+41+S,+Gibsonton,+FL+33534,+United+States"
         }
     ],
-    "Keystone, FL": [
+    "Keystone": [
         {
             "name": "Mobil",
             "address": "205 S Lawrence Blvd, Keystone Heights, FL 32656, United States",
@@ -1240,7 +1240,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=76+Daybreak+15945+State+Rd+54,+Odessa,+FL+33556,+United+States"
         }
     ],
-    "Lake Magdalene, FL": [
+    "Lake Magdalene": [
         {
             "name": "Circle K / Shell Gas Station",
             "address": "3611 W Bearss Ave, Tampa, FL 33618, United States",
@@ -1342,7 +1342,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Circle+K+14517+N+Nebraska+Ave,+Tampa,+FL+33613,+United+States"
         }
     ],
-    "Lutz, FL": [
+    "Lutz": [
         {
             "name": "RaceTrac",
             "address": "16707 State Rd 54, Lutz, FL 33558, United States",
@@ -1444,7 +1444,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Blessings+18215+US-41,+Lutz,+FL+33549,+United+States"
         }
     ],
-    "Mango, FL": [
+    "Mango": [
         {
             "name": "Flying J Travel Center",
             "address": "11555 E Sligh Ave, Seffner, FL 33584, United States",
@@ -1546,7 +1546,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Citgo+11703+E+M.L.K.+Jr+Blvd,+Seffner,+FL+33584,+United+States"
         }
     ],
-    "Northdale, FL": [
+    "Northdale": [
         {
             "name": "RaceTrac",
             "address": "16707 State Rd 54, Lutz, FL 33558, United States",
@@ -1648,7 +1648,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Shell+2209+E+Bearss+Ave,+Tampa,+FL+33613,+United+States"
         }
     ],
-    "Pebble Creek, FL": [
+    "Pebble Creek": [
         {
             "name": "RaceTrac",
             "address": "27140 State Rd 56, Wesley Chapel, FL 33544, United States",
@@ -1750,7 +1750,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=gas+station+4242+E+Busch+Blvd,+Tampa,+FL+33617,+United+States"
         }
     ],
-    "Plant City, FL": [
+    "Plant City": [
         {
             "name": "RaceTrac",
             "address": "6050 State Rd 60, Plant City, FL 33567, United States",
@@ -1852,7 +1852,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Shell+1665+Branch+Forbes+Rd,+Plant+City,+FL+33565,+United+States"
         }
     ],
-    "Progress Village, FL": [
+    "Progress Village": [
         {
             "name": "Mobil",
             "address": "9020 Progress Blvd, Riverview, FL 33578, United States",
@@ -1954,7 +1954,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=RaceTrac+7846+US-301,+Riverview,+FL+33578,+United+States"
         }
     ],
-    "Riverview, FL": [
+    "Riverview": [
         {
             "name": "THORNTONS",
             "address": "9979 Progress Blvd, Riverview, FL 33578, United States",
@@ -2056,7 +2056,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Circle+K+2820+US-301,+Riverview,+FL+33578,+United+States"
         }
     ],
-    "Ruskin, FL": [
+    "Ruskin": [
         {
             "name": "RaceTrac",
             "address": "3105 E College Ave, Ruskin, FL 33570, United States",
@@ -2158,7 +2158,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Shell+10820+US+Hwy+41+S,+Gibsonton,+FL+33534,+United+States"
         }
     ],
-    "Seffner, FL": [
+    "Seffner": [
         {
             "name": "Flying J Travel Center",
             "address": "11555 E Sligh Ave, Seffner, FL 33584, United States",
@@ -2260,7 +2260,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=RaceTrac+1722+James+L+Redman+Pkwy,+Plant+City,+FL+33563,+United+States"
         }
     ],
-    "Sun City Center, FL": [
+    "Sun City Center": [
         {
             "name": "Shell",
             "address": "711 Cypress Village Blvd, Sun City Center, FL 33573, United States",
@@ -2277,7 +2277,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Rally+711+Cypress+Village+Blvd,+Sun+City+Center,+FL+33573,+United+States"
         }
     ],
-    "Tampa, FL": [
+    "Tampa": [
         {
             "name": "Marathon Gas",
             "address": "101 N Howard Ave, Tampa, FL 33606, United States",
@@ -2379,7 +2379,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Shell+10052+Cross+Creek+Blvd,+Tampa,+FL+33647,+United+States"
         }
     ],
-    "Temple Terrace, FL": [
+    "Temple Terrace": [
         {
             "name": "RaceTrac",
             "address": "6911 E Fletcher Ave, Temple Terrace, FL 33617, United States",
@@ -2481,7 +2481,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Sunoco+Gas+Station+2309+N+22nd+St,+Tampa,+FL+33605,+United+States"
         }
     ],
-    "Thonotosassa, FL": [
+    "Thonotosassa": [
         {
             "name": "PETROL MART",
             "address": "11511 US-301, Thonotosassa, FL 33592, United States",
@@ -2583,7 +2583,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Shell+10030+E+Adamo+Dr,+Tampa,+FL+33619,+United+States"
         }
     ],
-    "Town 'n' Country, FL": [
+    "Town 'n' Country": [
         {
             "name": "Shell",
             "address": "10111 W Hillsborough Ave, Town 'N' Country, FL 33615, United States",
@@ -2685,7 +2685,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Circle+K+6422+Benjamin+Rd,+Tampa,+FL+33634,+United+States"
         }
     ],
-    "University, FL": [
+    "University": [
         {
             "name": "RaceTrac",
             "address": "11801 University Blvd, Orlando, FL 32817, United States",
@@ -2787,7 +2787,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Speedway+8550+N+University+Dr,+Tamarac,+FL+33321,+United+States"
         }
     ],
-    "Valrico, FL": [
+    "Valrico": [
         {
             "name": "Shell",
             "address": "2104 E Brandon Blvd, Valrico, FL 33594, United States",
@@ -2889,7 +2889,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=Shell+1005+Lithia+Pinecrest+Rd,+Brandon,+FL+33511,+United+States"
         }
     ],
-    "Westchase, FL": [
+    "Westchase": [
         {
             "name": "RaceTrac",
             "address": "12750 W Hillsborough Ave, Tampa, FL 33635, United States",
@@ -2991,7 +2991,7 @@
             "maps_link": "https://www.google.com/maps/search/?api=1&query=RaceTrac+7621+W+Linebaugh+Ave,+Tampa,+FL+33625,+United+States"
         }
     ],
-    "Wimauma, FL": [
+    "Wimauma": [
         {
             "name": "Circle K",
             "address": "5133 FL-674, Wimauma, FL 33598, United States",
