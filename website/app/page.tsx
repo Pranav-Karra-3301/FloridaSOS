@@ -381,14 +381,24 @@ Please stay safe and follow local guidance." />
                       <h4 className="font-bold mb-1">{hotel.name}</h4>
                       <p className="text-sm mb-1">{hotel.address}</p>
                       <p className="text-sm mb-1">Availability: {hotel.availability}</p>
-                      <a 
-                        href={hotel.maps_link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-500 hover:underline text-sm"
-                      >
-                        View on Google Maps
-                      </a>
+                      <div className="flex flex-col space-y-1">
+                        <a 
+                          href={hotel.maps_link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-500 hover:underline text-sm"
+                        >
+                          View on Google Maps
+                        </a>
+                        <a 
+                          href={hotel.google_search_link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-500 hover:underline text-sm"
+                        >
+                          Book
+                        </a>
+                      </div>
                     </div>
                   ))}
                   {hotelsData[selectedCounty as keyof typeof hotelsData]?.length > 5 && (
@@ -396,7 +406,6 @@ Please stay safe and follow local guidance." />
                   )}
                 </div>
               )}
-              
               {selectedOptions.gasStations && (
                 <div>
                   <h3 className="text-xl font-bold mb-2">Gas Stations <span className="text-sm font-normal text-green-500">● Live</span></h3>
@@ -501,7 +510,6 @@ Please stay safe and follow local guidance." />
               </div>
             </div>
           )}
-
 
         {/* Resources Section */}
         <section className="mb-8">
