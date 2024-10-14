@@ -1,25 +1,40 @@
 'use client';
 
 import Image from "next/image";
-import ArticleCarousel from "../components/ArticleCarousel";
 import Alert from "../components/alert";
 import { useState } from 'react';
 import gasStationsData from '../Data/gas_stations_hillsborough.json';
 import hotelsData from '../Data/hotels_hillsborough.json';
 import sheltersData from '../Data/shelters_with_google_maps.json';
 import foodPantriesData from '../Data/food_pantries.json';
+import hospitalsData from '../Data/hospitals_hillsborough.json';
+import powerOutagesData from '../Data/power_outages.json';
 
 export default function Home() {
   const emergencyInfo = {
     summary: "This is a summary of emergency information. Please download the PDF or Print this webpage for complete details.",
-    radioFrequencies: ["97.5 FM", "101.3 FM", "105.7 FM"],
-    pdfUrl: "/emergency_info.pdf", // Replace with actual PDF path
+    radioFrequencies: [
+      "102.5 MHz", // 102.5 The Bone
+      "106.9 MHz", // 106.9 Playa
+      "98.7 MHz",  // 98.7 The Shark
+      "105.5 MHz", // 105.5 The Dove
+      "97.1 MHz",  // 97X
+      "101.5 MHz", // 101.5 The Vibe
+    ],
+    policeFrequencies: [
+      "453.700 MHz", // Tampa Police District 1 (Sector A)
+      "453.550 MHz", // Tampa Police District 1 (Sector B)
+      "453.800 MHz", // Tampa Police District 3 (Sector F)
+      "453.850 MHz", // Tampa Police Tactical Operations
+      "453.875 MHz", // Tampa Police District 2 (New Tampa)
+    ],
+    pdfUrl: "/emergency.pdf", // Replace with actual PDF path
   };
 
   const evacuationPlans = [
-    { county: "Hillsborough County", filename: "hillsborough_evac_plan.pdf" },
-    { county: "Orange County", filename: "orange_evac_plan.pdf" },
-    { county: "Osceola County", filename: "osceola_evac_plan.pdf" },
+    { county: "Hillsborough County", filename: "evac_plans/hillsborough_evac_plan.pdf" },
+    { county: "Orange County", filename: "evac_plans/orange_evac_plan.pdf" },
+    { county: "Osceola County", filename: "evac_plans/osceola_evac_plan.pdf" },
   ];
 
   const [selectedCounty, setSelectedCounty] = useState('');
@@ -27,7 +42,8 @@ export default function Home() {
     hotels: true,
     gasStations: true,
     shelters: true,
-    foodPantries: true
+    foodPantries: true,
+    hospitals: true
   });
 
   const counties = Object.keys(gasStationsData);
@@ -83,7 +99,7 @@ export default function Home() {
           </div>
         </div>
         <p className="text-lg mt-6">Displaying Information for: Hurricane Milton</p>
-        <p className="text-sm text-yellow-300">Last Updated: October 12, 2024 11:00 AM EDT</p>
+        <p className="text-sm text-yellow-300">Last Updated: October 13, 2024 1:39 PM EDT</p>
       </header>
 
       <main>
@@ -128,6 +144,7 @@ export default function Home() {
               </a>
             ))}
           </div>
+          <p className="mb-3 text-sm">In case you lose internet access, select your county below and print this page as a PDF for offline use.</p>
           <a 
             href={emergencyInfo.pdfUrl} 
             download 
@@ -175,10 +192,10 @@ Please stay safe and follow local guidance." />
             <div className="relative px-7 py-6 bg-black ring-1 ring-gray-900/5 rounded-lg leading-none">
               <ul className="text-white-700 list-disc pl-5 space-y-2">
                 <li>Hurricane Milton caused significant damage and deaths across Florida.</li>
-                <li>Tampa Bay was severely affected, with damage to the local stadium raising concerns for the Rays' upcoming season.</li>
+                <li>Tampa Bay was severely affected, with damage to the local stadium raising concerns for the Rays&apos; upcoming season.</li>
                 <li>A boat captain survived by clinging to a cooler in the Gulf of Mexico.</li>
                 <li>Peso Pluma cancelled concerts in Tampa and Miami due to the hurricane.</li>
-                <li>Florida Lieutenant Dan Joseph Malinowski's daughter criticized influencers for exploiting the tragedy.</li>
+                <li>Florida Lieutenant Dan Joseph Malinowski&apos;s daughter criticized influencers for exploiting the tragedy.</li>
                 <li>The death toll has risen to 16 as rescue efforts continue.</li>
                 <li>Residents are navigating flooded streets for cleanup as recovery efforts begin.</li>
                 <li>The road to recovery is expected to be long and arduous.</li>
@@ -192,26 +209,32 @@ Please stay safe and follow local guidance." />
           <h2 className="text-2xl font-bold mb-4">Hurricane Tracking</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-black rounded-lg overflow-hidden">
-              <h3 className="text-lg font-semibold mb-2 text-center text-white">Path</h3>
-              <img
+              <h3 className="text-lg font-semibold mb-2 text-center text-white">Path Map</h3>
+              <Image
                 src="/path.gif"
                 alt="Hurricane Path"
+                width={400}
+                height={300}
                 className="w-full h-auto"
               />
             </div>
             <div className="bg-black rounded-lg overflow-hidden">
               <h3 className="text-lg font-semibold mb-2 text-center text-white">Temperature Map</h3>
-              <img
+              <Image
                 src="/temp.gif"
                 alt="Temperature Map"
+                width={400}
+                height={300}
                 className="w-full h-auto"
               />
             </div>
             <div className="bg-black rounded-lg overflow-hidden">
-              <h3 className="text-lg font-semibold mb-2 text-center text-white">Satellite</h3>
-              <img
+              <h3 className="text-lg font-semibold mb-2 text-center text-white">Satellite View</h3>
+              <Image
                 src="/sat.gif"
                 alt="Satellite View"
+                width={400}
+                height={300}
                 className="w-full h-auto"
               />
             </div>
@@ -235,13 +258,13 @@ Please stay safe and follow local guidance." />
             </h2>
             <div className="grid grid-cols-1 gap-4 h-[500px] overflow-y-auto">
               {[
-                { title: "Florida Lieutenant Dan, Joseph Malinowski daughter lashes out against influencers after Hurricane Milton", url: "https://nypost.com/2024/10/12/us-news/florida-lieutenant-dan-joseph-malinowski-daughter-lashes-out-against-influencers-after-hurricane-milton/", date: "October 12, 2024, 10:53 AM", preview: "" },
-                { title: "Lightning beat Hurricanes after extended stay due to Hurricane Milton", url: "https://apnews.com/article/nhl-tampa-bay-lightning-hurricane-milton-dbba41c2e63a4d4a11a9488ce97d7624", date: "October 12, 2024, 07:56 AM", preview: "" },
-                { title: "Can Tampa Bay Rays replace shredded stadium roof in time for next season?", url: "https://www.nbcnews.com/news/us-news/can-tampa-bay-rays-replace-shredded-stadium-roof-time-season-rcna175029", date: "October 11, 2024, 08:48 PM", preview: "" },
-                { title: "Peso Pluma Cancels Florida Concerts, Donates to Hurricane Relief Funds", url: "https://www.billboard.com/music/music-news/peso-pluma-cancels-tampa-miami-concerts-hurricane-milton-florida-1235798897/", date: "October 11, 2024, 08:19 PM", preview: "" },
-                { title: "Peso Pluma Cancels Florida Concerts, Donates to Hurricane Relief Funds", url: "https://www.billboard.com/music/latin/peso-pluma-cancels-tampa-miami-concerts-hurricane-milton-florida-1235798897/", date: "October 11, 2024, 08:19 PM", preview: "" },
-                { title: "Milton death toll rises to 17 as rescuers navigate rising Tampa Bay floodwaters", url: "https://www.upi.com/Top_News/2024/10/11/Milton-death-toll-rises-16-rescuers-navigate-rising-Tampa-Bay-floodwaters/8471728666255/", date: "October 11, 2024, 07:00 PM", preview: "" },
-                { title: "Hurricane Milton damage photos in Florida, drone images of Tampa, Sarasota, Fort Myers, Vero Beach", url: "https://news.yahoo.com/news/hurricane-milton-damage-photos-florida-155507590.html", date: "October 11, 2024, 05:36 PM", preview: "" },
+                { title: "Florida Lieutenant Dan, Joseph Malinowski daughter lashes out against influencers after Hurricane Milton", url: "https://nypost.com/2024/10/12/us-news/florida-lieutenant-dan-joseph-malinowski-daughter-lashes-out-against-influencers-after-hurricane-milton/", date: "October 13, 2024, 12:53 PM", preview: "" },
+                { title: "Lightning beat Hurricanes after extended stay due to Hurricane Milton", url: "https://apnews.com/article/nhl-tampa-bay-lightning-hurricane-milton-dbba41c2e63a4d4a11a9488ce97d7624", date: "October 13, 2024, 10:26 AM", preview: "" },
+                { title: "Can Tampa Bay Rays replace shredded stadium roof in time for next season?", url: "https://www.nbcnews.com/news/us-news/can-tampa-bay-rays-replace-shredded-stadium-roof-time-season-rcna175029", date: "October 13, 2024, 08:15 AM", preview: "" },
+                { title: "Peso Pluma Cancels Florida Concerts, Donates to Hurricane Relief Funds", url: "https://www.billboard.com/music/music-news/peso-pluma-cancels-tampa-miami-concerts-hurricane-milton-florida-1235798897/", date: "October 13, 2024, 06:42 AM", preview: "" },
+                { title: "Peso Pluma Cancels Florida Concerts, Donates to Hurricane Relief Funds", url: "https://www.billboard.com/music/latin/peso-pluma-cancels-tampa-miami-concerts-hurricane-milton-florida-1235798897/", date: "October 12, 2024, 11:37 PM", preview: "" },
+                { title: "Milton death toll rises to 17 as rescuers navigate rising Tampa Bay floodwaters", url: "https://www.upi.com/Top_News/2024/10/11/Milton-death-toll-rises-16-rescuers-navigate-rising-Tampa-Bay-floodwaters/8471728666255/", date: "October 12, 2024, 09:18 PM", preview: "" },
+                { title: "Hurricane Milton damage photos in Florida, drone images of Tampa, Sarasota, Fort Myers, Vero Beach", url: "https://news.yahoo.com/news/hurricane-milton-damage-photos-florida-155507590.html", date: "October 12, 2024, 07:45 PM", preview: "" },
               ].map((article, index) => (
                 <div key={index} className="bg-black shadow-md rounded-lg p-4 transition-shadow duration-300 hover:shadow-lg">
                   <h3 className="font-bold mb-2">{article.title}</h3>
@@ -276,9 +299,40 @@ Please stay safe and follow local guidance." />
           </section>
         </div>
         
-        {/* Available Services Section */}
+
+        {/* Power Outages Section */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Available Services Nearby</h2>
+          <h2 className="text-2xl font-bold mb-4">Power Outages</h2>
+          <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
+            <div className="grid grid-cols-2 gap-4 mb-4">
+              <div>
+                <p className="text-lg">County: <span className="font-bold">{powerOutagesData.County}</span></p>
+                <p className="text-lg">Total Customers: <span className="font-bold">{powerOutagesData["Total Customers Tracked"].toLocaleString()}</span></p>
+              </div>
+              <div>
+                <p className="text-lg">Customers Out: <span className="font-bold text-red-500">{powerOutagesData["Customers Out"].toLocaleString()}</span></p>
+                <p className="text-lg">Outage Percentage: <span className="font-bold text-red-500">{powerOutagesData["Outage Percentage"]}</span></p>
+              </div>
+            </div>
+            <div className="mt-4">
+              <h3 className="text-xl font-bold mb-2">Providers</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {powerOutagesData.Providers.map((provider, index) => (
+                  <div key={index} className="bg-gray-800 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">{provider.Provider}</h4>
+                    <p>Customers Tracked: {provider["Customers Tracked"]}</p>
+                    <p>Customers Out: <span className="text-red-500">{provider["Customers Out"]}</span></p>
+                    <p className="text-sm text-gray-400">Last Updated: {provider["Last Updated"]}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+{/* Available Services Section */}
+<section className="mb-8">
+          <h2 className="text-2xl font-bold mb-4">🔍 Available Services Nearby</h2>
           <div className="mb-4 flex flex-wrap gap-4">
             {Object.entries(selectedOptions).map(([key, value]) => (
               <label key={key} className="inline-flex items-center">
@@ -294,7 +348,7 @@ Please stay safe and follow local guidance." />
           </div>
           <div className="mb-4">
             <label htmlFor="county-select" className="block text-sm font-bold text-white uppercase mb-2">
-              SELECT COUNTY:
+              SELECT CITY:
             </label>
             <div className="relative">
               <select
@@ -303,7 +357,7 @@ Please stay safe and follow local guidance." />
                 onChange={(e) => setSelectedCounty(e.target.value)}
                 className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md bg-black text-white shadow-[0_0_10px_rgba(59,130,246,0.5)] border-2 border-blue-500 transition-all duration-300 ease-in-out hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]"
               >
-                <option value="">Select a county</option>
+                <option value="">Select a City</option>
                 {counties.map((county) => (
                   <option key={county} value={county}>
                     {county}
@@ -327,14 +381,24 @@ Please stay safe and follow local guidance." />
                       <h4 className="font-bold mb-1">{hotel.name}</h4>
                       <p className="text-sm mb-1">{hotel.address}</p>
                       <p className="text-sm mb-1">Availability: {hotel.availability}</p>
-                      <a 
-                        href={hotel.maps_link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-500 hover:underline text-sm"
-                      >
-                        View on Google Maps
-                      </a>
+                      <div className="flex flex-col space-y-1">
+                        <a 
+                          href={hotel.maps_link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-500 hover:underline text-sm"
+                        >
+                          View on Google Maps
+                        </a>
+                        <a 
+                          href={hotel.google_search_link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-500 hover:underline text-sm"
+                        >
+                          Book
+                        </a>
+                      </div>
                     </div>
                   ))}
                   {hotelsData[selectedCounty as keyof typeof hotelsData]?.length > 5 && (
@@ -342,7 +406,6 @@ Please stay safe and follow local guidance." />
                   )}
                 </div>
               )}
-              
               {selectedOptions.gasStations && (
                 <div>
                   <h3 className="text-xl font-bold mb-2">Gas Stations <span className="text-sm font-normal text-green-500">● Live</span></h3>
@@ -424,7 +487,29 @@ Please stay safe and follow local guidance." />
               )}
             </div>
           )}
+
         </section>
+          {selectedOptions.hospitals && selectedCounty && (
+            <div className="bg-gray-900 p-6 rounded-lg shadow-lg mb-6">
+              <h3 className="text-2xl font-bold mb-4">Hospitals in {selectedCounty}</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {hospitalsData[selectedCounty as keyof typeof hospitalsData]?.map((hospital, index) => (
+                  <div key={index} className="bg-black p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">{hospital.name}</h4>
+                    <p className="text-sm mb-2">{hospital.address}</p>
+                    <a 
+                      href={hospital.maps_link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:underline text-sm"
+                    >
+                      View on Google Maps
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
         {/* Resources Section */}
         <section className="mb-8">
@@ -456,51 +541,74 @@ Please stay safe and follow local guidance." />
           </div>
 
           {/* Emergency Checklist Section */}
-          <div className="bg-black p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-bold mb-4">Emergency Preparedness Checklist</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-              <div className="bg-gray-900 p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Essential Documents</h4>
-                <ul className="list-disc list-inside">
-                  <li>Driver's license</li>
-                  <li>Passport</li>
-                  <li>Birth certificate</li>
-                  <li>Social Security card</li>
-                  <li>Insurance policies</li>
-                </ul>
+          <div className="relative cursor-pointer">
+            <div className="absolute -inset-1 bg-gradient-to-r from-red-600 to-violet-600 rounded-lg blur opacity-100 animate-pulse"></div>
+            <div className="relative px-7 py-6 bg-black ring-1 ring-gray-900/5 rounded-lg leading-none">
+              <h3 className="text-xl font-bold mb-4">Emergency Preparedness Checklist</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                <div className="bg-gray-900 p-4 rounded-lg">
+                  <h4 className="font-bold mb-2">Essential Documents</h4>
+                  <ul className="list-disc list-inside">
+                    <li>Driver's license</li>
+                    <li>Passport</li>
+                    <li>Birth certificate</li>
+                    <li>Social Security card</li>
+                    <li>Insurance policies</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-900 p-4 rounded-lg">
+                  <h4 className="font-bold mb-2">Emergency Supplies</h4>
+                  <ul className="list-disc list-inside">
+                    <li>First aid kit</li>
+                    <li>Flashlight and batteries</li>
+                    <li>Battery-powered radio</li>
+                    <li>Non-perishable food</li>
+                    <li>Bottled water</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-900 p-4 rounded-lg">
+                  <h4 className="font-bold mb-2">Personal Items</h4>
+                  <ul className="list-disc list-inside">
+                    <li>Medications</li>
+                    <li>Eyeglasses or contacts</li>
+                    <li>Cash and credit cards</li>
+                    <li>Change of clothes</li>
+                    <li>Personal hygiene items</li>
+                  </ul>
+                </div>
               </div>
-              <div className="bg-gray-900 p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Emergency Supplies</h4>
-                <ul className="list-disc list-inside">
-                  <li>First aid kit</li>
-                  <li>Flashlight and batteries</li>
-                  <li>Battery-powered radio</li>
-                  <li>Non-perishable food</li>
-                  <li>Bottled water</li>
-                </ul>
+              <div className="text-center">
+                <a 
+                  href="/checklist.pdf" 
+                  download 
+                  className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded inline-block"
+                >
+                  Download Full Checklist PDF
+                </a>
               </div>
-              <div className="bg-gray-900 p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Personal Items</h4>
-                <ul className="list-disc list-inside">
-                  <li>Medications</li>
-                  <li>Eyeglasses or contacts</li>
-                  <li>Cash and credit cards</li>
-                  <li>Change of clothes</li>
-                  <li>Personal hygiene items</li>
-                </ul>
-              </div>
-            </div>
-            <div className="text-center">
-              <a 
-                href="/checklist.pdf" 
-                download 
-                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded inline-block"
-              >
-                Download Full Checklist PDF
-              </a>
             </div>
           </div>
         </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-bold mb-4 text-center">Our Team</h2>
+        <div className="relative flex justify-center">
+          <div className="relative w-full max-w-3xl">
+            <Image
+              src="/team.png"
+              alt="Team Photo"
+              width={1200}
+              height={675}
+              className="rounded-lg shadow-lg object-cover"
+              style={{ maxHeight: '400px' }}
+            />
+            <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
+              <p className="text-center text-sm">
+                Left to right: Evan Sinocchi, Dev Pratap Singh, Dhruva Nagesh, Pranav Karra, Ruhan Malli, Andre Marinak
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       </main>
 
       <footer className="text-center text-sm text-gray-500 mt-8">
