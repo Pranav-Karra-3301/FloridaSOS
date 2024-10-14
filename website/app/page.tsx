@@ -589,7 +589,7 @@ Please stay safe and follow local guidance." />
             </div>
           </div>
         </section>
-      {/* <section className="mb-8">
+      <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4 text-center">Our Team</h2>
         <div className="relative flex justify-center">
           <div className="relative w-full max-w-3xl">
@@ -608,7 +608,7 @@ Please stay safe and follow local guidance." />
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       </main>
 
       <footer className="text-center text-sm text-gray-500 mt-8">
