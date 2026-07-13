@@ -14,18 +14,27 @@
 
 ## 📋 Table of Contents
 1. [Introduction](#introduction)
-2. [Repository Structure](#repository-structure)
-3. [Key Components](#key-components)
-4. [Data Sources](#data-sources)
-5. [Customization](#customization)
-6. [Setup and Deployment](#setup-and-deployment)
-7. [Using as a Template](#using-as-a-template)
+2. [Contributors](#contributors)
+3. [Repository Structure](#repository-structure)
+4. [Key Components](#key-components)
+5. [Data Sources](#data-sources)
+6. [Customization](#customization)
+7. [Setup and Deployment](#setup-and-deployment)
+8. [Using as a Template](#using-as-a-template)
 
 ## 🌟 Introduction
 
 This repository contains a comprehensive Hurricane Warning Dashboard, designed to provide real-time information and resources during hurricane emergencies. Built with Next.js and utilizing various data sources, this dashboard offers a centralized platform for emergency information, news updates, and local resource mapping. 
 
 **This project serves as a powerful template that can be quickly adapted and deployed, enabling the creation of an all-in-one emergency dashboard capable of serving millions of people within minutes of a crisis.**
+
+## 👥 Contributors
+
+- Pranav Karra
+- Andre Marnik
+- Evan Sinocchi
+- Ruhan Malli
+- Dev Pratap Singh
 
 ## 🚧 Repository Structure
 
