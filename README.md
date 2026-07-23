@@ -26,6 +26,8 @@
 
 This repository contains a comprehensive Hurricane Warning Dashboard, designed to provide real-time information and resources during hurricane emergencies. Built with Next.js and utilizing various data sources, this dashboard offers a centralized platform for emergency information, news updates, and local resource mapping. 
 
+**Live demo:** [milton-sos.vercel.app](https://milton-sos.vercel.app)
+
 **This project serves as a powerful template that can be quickly adapted and deployed, enabling the creation of an all-in-one emergency dashboard capable of serving millions of people within minutes of a crisis.**
 
 ## 👥 Contributors
@@ -155,3 +157,7 @@ This repository can be easily forked and customized for any disaster or emergenc
 By following these steps, you can have a fully functional emergency dashboard up and running in minutes, tailored to your specific needs and location.
 
 This template provides a solid foundation for creating emergency information hubs quickly and efficiently, allowing for rapid deployment during critical situations.
+
+---
+
+Built by [Pranav Karra](https://pranavkarra.me) and the FloridaSOS team.

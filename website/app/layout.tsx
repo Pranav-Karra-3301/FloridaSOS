@@ -14,9 +14,15 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://milton-sos.vercel.app"),
   title: "🌪️ Hurricane Warning Dashboard",
-  description: "HackPSU Fall 2024 Submission",
+  description:
+    "An all-in-one emergency dashboard with real-time hurricane tracking, evacuation alerts, news, and local resources (shelters, hospitals, gas stations, and more). HackPSU Fall 2024 overall winner.",
   openGraph: {
+    title: "Hurricane Warning Dashboard",
+    description:
+      "Real-time hurricane tracking, evacuation alerts, and local emergency resources in one dashboard.",
+    type: "website",
     images: [
       {
         url: '/sat.gif',
@@ -25,6 +31,13 @@ export const metadata: Metadata = {
         alt: 'Hurricane Warning Dashboard',
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hurricane Warning Dashboard",
+    description:
+      "Real-time hurricane tracking, evacuation alerts, and local emergency resources in one dashboard.",
+    images: ['/sat.gif'],
   },
 };
 
